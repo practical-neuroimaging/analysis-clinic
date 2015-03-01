@@ -175,3 +175,14 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+git-clean:
+	git clean -fxd
+
+gh-pages: git-clean html
+	git co master
+	git rm -r .
+	git checkout HEAD -- .gitignore README.md .nojekyll
+	cp -r _build/html/* . # your sphinx build directory
+	git stage .
+	@echo 'Commit and push when ready or git reset --hard && git checkout source to revert'

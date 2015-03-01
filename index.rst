@@ -3,14 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Berkeley imaging analysis clinic's documentation!
-============================================================
+Berkeley imaging analysis clinic
+================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
+    where_when
+    clinics
+    proposed_topics
 
 
 Indices and tables
