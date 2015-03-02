@@ -8,3 +8,8 @@ Topics proposed for future clinics
 * implement Anova 2nd level / partition variance : a review with SPM / other
   software;
 * despiking strategies and software : which one to use?
+* networks how to compare acrss subjects;
+* non parametric statistics : an introduction;
+* connectivity: PPI / beta values;
+* TMS : difficulties - rationales;
+* Machine learning : general introduction.
