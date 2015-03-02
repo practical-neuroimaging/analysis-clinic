@@ -33,3 +33,11 @@ Evaluation of the statistical model
 ***********************************
 
 http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/model_validation_101.ipynb
+
+****************************
+Correlated regressors, power
+****************************
+
+https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/correlated_regressors.ipynb
+
+https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/optimizing_designs.ipynb
