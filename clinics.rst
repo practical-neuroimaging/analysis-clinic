@@ -6,7 +6,8 @@ Clinics to date
 Temporal derivative and slice timing
 ************************************
 
-http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/temporal_derivatives.ipynb
+Notebook on `temporal derivatives
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/temporal_derivatives.ipynb>`_
 
 References:
 
@@ -26,18 +27,38 @@ fMRI; Hemodynamic response; Delay; Brain imaging; Basis sets; Group analysis
 Thinking about power in neuroimaging analyses
 *********************************************
 
-http://nbviewer.ipython.org/github/jbpoline/power_issues/blob/master/NSS_power_issues.ipynb
+Notebook on `power in neuroimaging
+<http://nbviewer.ipython.org/github/jbpoline/power_issues/blob/master/NSS_power_issues.ipynb>`_
 
 ***********************************
 Evaluation of the statistical model
 ***********************************
 
-http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/model_validation_101.ipynb
+Notebook on `comparing models
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/model_validation_101.ipynb>`_
 
 ****************************
 Correlated regressors, power
 ****************************
 
-https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/correlated_regressors.ipynb
+Feb 2, 2015
 
-https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/optimizing_designs.ipynb
+Notebook on `correlated regressors
+<https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/correlated_regressors.ipynb>`_
+
+Notebook on `optimizing designs
+<https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/optimizing_designs.ipynb>`_
+
+We will cover optimizing designs properly in the Feb 16th clinic.
+
+*****************************************
+Within-subject registration and fieldmaps
+*****************************************
+
+Feb 9, 2015
+
+**********************************************
+Optimizing designs, orthogonalizing regressors
+**********************************************
+
+Feb 16, 2015
