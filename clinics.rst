@@ -37,6 +37,12 @@ Evaluation of the statistical model
 Notebook on `comparing models
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/model_validation_101.ipynb>`_
 
+Matthew mentioned the Worsley average (global) F-test for testing if a
+particular F-test is significant on average across voxels |--| and therefore
+whether to drop or keep the regressors in the F test.  There is some very old
+MATLAB code to compute this test :download:`here </code/meanF.m>` that may
+well need adapting to newer versions of SPM.
+
 ****************************
 Correlated regressors, power
 ****************************
@@ -44,10 +50,10 @@ Correlated regressors, power
 Feb 2, 2015
 
 Notebook on `correlated regressors
-<https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/correlated_regressors.ipynb>`_
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/correlated_regressors.ipynb>`_
 
 Notebook on `optimizing designs
-<https://raw.githubusercontent.com/practical-neuroimaging/pna-notebooks/master/optimizing_designs.ipynb>`_
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/optimizing_designs.ipynb>`_
 
 We will cover optimizing designs properly in the Feb 16th clinic.
 
@@ -62,3 +68,5 @@ Optimizing designs, orthogonalizing regressors
 **********************************************
 
 Feb 16, 2015
+
+.. include:: links_names.inc
