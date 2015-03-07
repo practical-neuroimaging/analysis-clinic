@@ -63,10 +63,29 @@ Within-subject registration and fieldmaps
 
 Feb 9, 2015
 
+Exploring some DICOMs from the ``gre_field_mapping`` sequence - `notebook on
+investigating fieldmaps
+<http://nbviewer.ipython.org/github/practical-neuroimaging/analysis-clinic/blob/master/investigating_fieldmaps.ipynb>`_.
+
+Useful links:
+
+* http://nipy.org/nibabel/coordinate_systems.html
+* http://www.mccauslandcenter.sc.edu/CRNL/tools/fieldmap
+* https://bitbucket.org/matthewbrett/spm-versions/src/master/spm12/toolbox/FieldMap/FieldMap_principles.man
+
+Jezzard P & Balaban RS. 1995. Correction for geometric distortion in
+echo planar images from Bo field variations. MRM 34:65-73.
+
 **********************************************
 Optimizing designs, orthogonalizing regressors
 **********************************************
 
 Feb 16, 2015
+
+Notebook on `optimizing designs
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/optimizing_designs.ipynb>`_
+
+Notebook on `correlated regressors
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/correlated_regressors.ipynb>`_
 
 .. include:: links_names.inc
