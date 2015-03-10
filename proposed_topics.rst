@@ -20,4 +20,5 @@ Topics proposed for future clinics
 * connectivity: PPI / beta values 
 * TMS : difficulties - rationales
 * Machine learning : general introduction
+* A clinic on [GLM denoising](http://kendrickkay.net/GLMdenoise)
 
