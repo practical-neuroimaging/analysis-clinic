@@ -27,12 +27,18 @@ fMRI; Hemodynamic response; Delay; Brain imaging; Basis sets; Group analysis
 Thinking about power in neuroimaging analyses
 *********************************************
 
+February 9, 2015
+
 Notebook on `power in neuroimaging
 <http://nbviewer.ipython.org/github/jbpoline/power_issues/blob/master/NSS_power_issues.ipynb>`_
+
+(No clinic February 16, Presidents' day).
 
 ***********************************
 Evaluation of the statistical model
 ***********************************
+
+February 23, 2015
 
 Notebook on `comparing models
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/model_validation_101.ipynb>`_
@@ -47,7 +53,7 @@ well need adapting to newer versions of SPM.
 Correlated regressors, power
 ****************************
 
-Feb 2, 2015
+March 2, 2015
 
 Notebook on `correlated regressors
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/correlated_regressors.ipynb>`_
@@ -55,13 +61,13 @@ Notebook on `correlated regressors
 Notebook on `optimizing designs
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/optimizing_designs.ipynb>`_
 
-We will cover optimizing designs properly in the Feb 16th clinic.
+We will cover optimizing designs properly in the March 23rd clinic.
 
 *****************************************
 Within-subject registration and fieldmaps
 *****************************************
 
-Feb 9, 2015
+March 9, 2015
 
 Exploring some DICOMs from the ``gre_field_mapping`` sequence - `notebook on
 investigating fieldmaps
@@ -76,11 +82,17 @@ Useful links:
 Jezzard P & Balaban RS. 1995. Correction for geometric distortion in
 echo planar images from Bo field variations. MRM 34:65-73.
 
+**********************
+Fieldmaps extravaganza
+**********************
+
+March 16, 2015
+
 **********************************************
 Optimizing designs, orthogonalizing regressors
 **********************************************
 
-Feb 16, 2015
+March 23, 2015
 
 Notebook on `optimizing designs
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/optimizing_designs.ipynb>`_
