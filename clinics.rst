@@ -88,6 +88,8 @@ Fieldmaps extravaganza
 
 March 16, 2015
 
+Alex Huth kindly provided his :download:`presentation on EPI unwarping <EpiUnwarping.pdf>`_.
+
 **********************************************
 Optimizing designs, orthogonalizing regressors
 **********************************************
