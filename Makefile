@@ -180,7 +180,7 @@ git-clean:
 	git clean -fxd
 
 gh-pages: git-clean html
-	git co master
+	git co gh-pages
 	git rm -r .
 	git checkout HEAD -- .gitignore README.md .nojekyll
 	cp -r _build/html/* . # your sphinx build directory
