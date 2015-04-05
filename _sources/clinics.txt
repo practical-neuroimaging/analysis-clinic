@@ -102,4 +102,13 @@ Notebook on `optimizing designs
 Notebook on `correlated regressors
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/correlated_regressors.ipynb>`_
 
+******************************************************
+Multiple comparison correction, non-parametric methods
+******************************************************
+
+April 6th, 2015
+
+Notebook on `FDR
+<http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/FDR.ipynb>`_
+
 .. include:: links_names.inc
