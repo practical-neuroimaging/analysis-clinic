@@ -111,4 +111,11 @@ April 6th, 2015
 Notebook on `FDR
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/FDR.ipynb>`_
 
+Useful paper on difference in performance between different FWE methods:
+
+Nichols, Thomas, and Satoru Hayasaka. "Controlling the familywise error rate
+in functional neuroimaging: a comparative review." Statistical methods in
+medical research 12.5 (2003): 419-446.
+http://www-personal.umich.edu/~nichols/FWEfNI.pdf
+
 .. include:: links_names.inc
