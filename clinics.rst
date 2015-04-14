@@ -118,4 +118,13 @@ in functional neuroimaging: a comparative review." Statistical methods in
 medical research 12.5 (2003): 419-446.
 http://www-personal.umich.edu/~nichols/FWEfNI.pdf
 
+*********************************
+On choosing a connectivity metric
+*********************************
+
+April 13th, 2015
+
+Derek Nee presented on :download:`How I Learned to Stop
+Worrying and Use DCM <choosing_dcm.pdf>`.
+
 .. include:: links_names.inc
