@@ -127,4 +127,31 @@ April 13th, 2015
 Derek Nee presented on :download:`How I Learned to Stop
 Worrying and Use DCM <choosing_dcm.pdf>`.
 
+*********************
+Spatial normalization
+*********************
+
+We talked about:
+
+* the importance of the image affine for registration - see
+  http://nipy.org/nibabel/coordinate_systems.html for a tutorial;
+* diffeomorphic non-linear image registration for spatial normalization:
+
+  * In SPM with `DARTEL <http://cslras.pbworks.com/f/DARTEL.pdf>`_;
+  * In `ANTS <http://picsl.upenn.edu/software/ants>`_;
+
+We also referred to the paper we'll be discussing next week.
+
+*******************************
+Assessing normalization methods
+*******************************
+
+A journal club on:
+
+Klein, Arno, et al. "Evaluation of 14 nonlinear deformation algorithms applied
+to human brain MRI registration." Neuroimage 46.3 (2009): 786-802.
+
+This paper attempts to do an objective comparison of different spatial
+normalization methods including SPM, FSL and ANTS.
+
 .. include:: links_names.inc
