@@ -131,6 +131,8 @@ Worrying and Use DCM <choosing_dcm.pdf>`.
 Spatial normalization
 *********************
 
+April 20th, 2015
+
 We talked about:
 
 * the importance of the image affine for registration - see
@@ -146,12 +148,31 @@ We also referred to the paper we'll be discussing next week.
 Assessing normalization methods
 *******************************
 
+April 27th, 2015
+
 A journal club on:
 
 Klein, Arno, et al. "Evaluation of 14 nonlinear deformation algorithms applied
 to human brain MRI registration." Neuroimage 46.3 (2009): 786-802.
 
 This paper attempts to do an objective comparison of different spatial
-normalization methods including SPM, FSL and ANTS.
+normalization methods including SPM, FSL and `ANTS
+<http://stnava.github.io/ANTs>`_.
+
+The SyN method referred to in Klein's paper is *symmetric diffeomorphic
+normalization* |--| part of the ANTS software package.
+
+Another less well-known package that did well in the tests is `ART
+<https://www.nitrc.org/projects/art>`_.
+
+********************************
+Hands-on normalization with ANTS
+********************************
+
+May 4th, 2015
+
+Arielle Tambini will show use of the ANTS registration tools to do spatial
+normalization by making a study-specific template and registering to this
+template.
 
 .. include:: links_names.inc
