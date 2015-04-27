@@ -132,6 +132,46 @@ in functional neuroimaging: a comparative review.&#8221; Statistical methods in
 medical research 12.5 (2003): 419-446.
 <a class="reference external" href="http://www-personal.umich.edu/~nichols/FWEfNI.pdf">http://www-personal.umich.edu/~nichols/FWEfNI.pdf</a></p>
 </div>
+<div class="section" id="on-choosing-a-connectivity-metric">
+<h2>On choosing a connectivity metric<a class="headerlink" href="#on-choosing-a-connectivity-metric" title="Permalink to this headline">¶</a></h2>
+<p>April 13th, 2015</p>
+<p>Derek Nee presented on <a class="reference download internal" href="_downloads/choosing_dcm.pdf"><tt class="xref download docutils literal"><span class="pre">How</span> <span class="pre">I</span> <span class="pre">Learned</span> <span class="pre">to</span> <span class="pre">Stop</span>
+<span class="pre">Worrying</span> <span class="pre">and</span> <span class="pre">Use</span> <span class="pre">DCM</span></tt></a>.</p>
+</div>
+<div class="section" id="spatial-normalization">
+<h2>Spatial normalization<a class="headerlink" href="#spatial-normalization" title="Permalink to this headline">¶</a></h2>
+<p>April 20th, 2015</p>
+<p>We talked about:</p>
+<ul class="simple">
+<li>the importance of the image affine for registration - see
+<a class="reference external" href="http://nipy.org/nibabel/coordinate_systems.html">http://nipy.org/nibabel/coordinate_systems.html</a> for a tutorial;</li>
+<li>diffeomorphic non-linear image registration for spatial normalization:<ul>
+<li>In SPM with <a class="reference external" href="http://cslras.pbworks.com/f/DARTEL.pdf">DARTEL</a>;</li>
+<li>In <a class="reference external" href="http://picsl.upenn.edu/software/ants">ANTS</a>;</li>
+</ul>
+</li>
+</ul>
+<p>We also referred to the paper we&#8217;ll be discussing next week.</p>
+</div>
+<div class="section" id="assessing-normalization-methods">
+<h2>Assessing normalization methods<a class="headerlink" href="#assessing-normalization-methods" title="Permalink to this headline">¶</a></h2>
+<p>April 27th, 2015</p>
+<p>A journal club on:</p>
+<p>Klein, Arno, et al. &#8220;Evaluation of 14 nonlinear deformation algorithms applied
+to human brain MRI registration.&#8221; Neuroimage 46.3 (2009): 786-802.</p>
+<p>This paper attempts to do an objective comparison of different spatial
+normalization methods including SPM, FSL and <a class="reference external" href="http://stnava.github.io/ANTs">ANTS</a>.</p>
+<p>The SyN method referred to in Klein&#8217;s paper is <em>symmetric diffeomorphic
+normalization</em> – part of the ANTS software package.</p>
+<p>Another less well-known package that did well in the tests is <a class="reference external" href="https://www.nitrc.org/projects/art">ART</a>.</p>
+</div>
+<div class="section" id="hands-on-normalization-with-ants">
+<h2>Hands-on normalization with ANTS<a class="headerlink" href="#hands-on-normalization-with-ants" title="Permalink to this headline">¶</a></h2>
+<p>May 4th, 2015</p>
+<p>Arielle Tambini will show use of the ANTS registration tools to do spatial
+normalization by making a study-specific template and registering to this
+template.</p>
+</div>
 </div>
 
 
@@ -151,6 +191,10 @@ medical research 12.5 (2003): 419-446.
 <li><a class="reference internal" href="#fieldmaps-extravaganza">Fieldmaps extravaganza</a></li>
 <li><a class="reference internal" href="#optimizing-designs-orthogonalizing-regressors">Optimizing designs, orthogonalizing regressors</a></li>
 <li><a class="reference internal" href="#multiple-comparison-correction-non-parametric-methods">Multiple comparison correction, non-parametric methods</a></li>
+<li><a class="reference internal" href="#on-choosing-a-connectivity-metric">On choosing a connectivity metric</a></li>
+<li><a class="reference internal" href="#spatial-normalization">Spatial normalization</a></li>
+<li><a class="reference internal" href="#assessing-normalization-methods">Assessing normalization methods</a></li>
+<li><a class="reference internal" href="#hands-on-normalization-with-ants">Hands-on normalization with ANTS</a></li>
 </ul>
 </li>
 </ul>

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Topics proposed for future clinics &mdash; Berkeley imaging analysis clinic</title>
+    <title>Notes on Klein et al 2009 &mdash; Berkeley imaging analysis clinic</title>
     
     <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -25,7 +25,6 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="Berkeley imaging analysis clinic" href="index.html" />
-    <link rel="prev" title="Clinics to date" href="clinics.html" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
 <!--[if lte IE 6]>
@@ -41,9 +40,6 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="clinics.html" title="Clinics to date"
-             accesskey="P">previous</a> |</li>
         <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>  
@@ -53,25 +49,59 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="topics-proposed-for-future-clinics">
-<h1>Topics proposed for future clinics<a class="headerlink" href="#topics-proposed-for-future-clinics" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="notes-on-klein-et-al-2009">
+<h1>Notes on Klein et al 2009<a class="headerlink" href="#notes-on-klein-et-al-2009" title="Permalink to this headline">¶</a></h1>
+<p>Klein, Arno, et al. &#8220;Evaluation of 14 nonlinear deformation algorithms applied
+to human brain MRI registration.&#8221; Neuroimage 46.3 (2009): 786-802.</p>
+<div class="section" id="input">
+<h2>Input<a class="headerlink" href="#input" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>coregistration anatomical version functional : general pipeline best practices?;
-- structural to functional
-- between sessions (not between subjects)</li>
-<li>implement Anova 2nd level / partition variance : a review with SPM / other
-software;</li>
-<li>despiking strategies and software : which one to use?</li>
-<li>connectivity: PPI / beta values</li>
-<li>TMS : difficulties - rationales</li>
-<li>Machine learning : general introduction</li>
-<li>A clinic on [GLM denoising](<a class="reference external" href="http://kendrickkay.net/GLMdenoise">http://kendrickkay.net/GLMdenoise</a>)</li>
-<li>A spatial normalization artefact with AFNI</li>
-<li>autonomic changes - hemodynamic vs neural;</li>
-<li>comparing shared variance between models;</li>
-<li>comparing networks across subjects / states;</li>
-<li>how many trials do I need?</li>
+<li>LPBA40: 40 subjects, pre-registered to MNI</li>
+<li>IBSR18: 18 subjects</li>
+<li>CUMC12: 12 subjects</li>
+<li>MGH10: 10 subjects</li>
 </ul>
+</div>
+<div class="section" id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>(Not LPBA40) linear registration to MNI using FLIRT -&gt; <span class="math">\(I_s\)</span>;</li>
+<li>Linear registration to every other image in atlas group -&gt; <span class="math">\(I_t\)</span>;</li>
+<li>Nonlinear registration of <span class="math">\(I_t\)</span> to same image.</li>
+</ul>
+</div>
+<div class="section" id="permutation-tests">
+<h2>Permutation tests<a class="headerlink" href="#permutation-tests" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Identify independent brain pairs (20, 9, 6, and 5 pairs for the four
+atlases);</p>
+</li>
+<li><dl class="first docutils">
+<dt>Take some sample <span class="math">\(P\)</span> from these pairs.  For each sample;</dt>
+<dd><ul class="first last">
+<li><p class="first">Get <span class="math">\(P\)</span> overlap values for each of two methods <span class="math">\(P_1\)</span>, P_2:math:<a href="#id1"><span class="problematic" id="id2">`</span></a>;</p>
+</li>
+<li><p class="first">Subtract to get <cite>D:math:</cite>;</p>
+</li>
+<li><dl class="first docutils">
+<dt>Then for some <cite>N:math:</cite>:</dt>
+<dd><ul class="first last simple">
+<li>Permute labels on some entries of <cite>P_1, P_2:math:</cite>;</li>
+<li>Calculate <cite>D_i:math:</cite>;</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Collect <cite>D_i:math:</cite>, and compare <cite>D:math:</cite> to distribution <cite>D_i:math:</cite> to give <cite>p:math:</cite>;</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Calculate percentage of <a href="#id3"><span class="problematic" id="id4">`</span></a>p$ &gt; 0.05.</p>
+</li>
+</ul>
+</div>
 </div>
 
 
@@ -80,9 +110,16 @@ software;</li>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="clinics.html"
-                        title="previous chapter">Clinics to date</a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Notes on Klein et al 2009</a><ul>
+<li><a class="reference internal" href="#input">Input</a></li>
+<li><a class="reference internal" href="#procedure">Procedure</a></li>
+<li><a class="reference internal" href="#permutation-tests">Permutation tests</a></li>
+</ul>
+</li>
+</ul>
+
 <div id="searchbox" style="display: none">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
@@ -106,9 +143,6 @@ software;</li>
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li class="right" >
-          <a href="clinics.html" title="Clinics to date"
-             >previous</a> |</li>
         <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>
