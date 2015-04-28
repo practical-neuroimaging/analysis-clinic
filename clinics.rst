@@ -165,11 +165,23 @@ normalization* |--| part of the ANTS software package.
 Another less well-known package that did well in the tests is `ART
 <https://www.nitrc.org/projects/art>`_.
 
+We had a fruitful and robust discussion about:
+
+* the overall purpose of spatial normalization;  is to increase overlap of
+  functionally homologous areas? (as MB believes); does it vary according to
+  the aim of the study (as JB believes)?  Should we constrain ourselves to
+  thinking only of the structural image?
+* how much weight we can put on border drawn by specialists in neuroanatomy;
+* what is the role of functional *data* in spatial normalization?
+* how can we reasonably assess whether spatial normalization has been
+  successful in a way that is independent of the measures the different
+  methods are optimizing in doing the match?
+
 ********************************
 Hands-on normalization with ANTS
 ********************************
 
-May 4th, 2015
+May 11th, 2015
 
 Arielle Tambini will show use of the ANTS registration tools to do spatial
 normalization by making a study-specific template and registering to this
