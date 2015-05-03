@@ -14,17 +14,35 @@ Software installation
 
 You will need some software installed on your laptop to follow along.
 
-Mac or Windows
-==============
+Mac
+===
 
-If you are on Mac or Windows, and you do not have the standard scientific Python
-packages installed, then we recommend Anaconda to install the packages you need:
-
-http://continuum.io/downloads
+If you do not have the standard scientific Python packages installed, then we
+recommend Anaconda to install the packages you need: http://continuum.io/downloads
 
 Then you can install the diffusion imaging package (dipy) with::
 
+    conda install -c http://nipy.bic.berkeley.edu/scipy_installers/conda dipy
+
+If you do have the standard scientific Python packages already installed, but
+not through Anaconda, then try::
+
     pip install dipy
+
+Please let me (matthew.brett@gmail.com) know if you have any problem.
+
+Windows
+=======
+
+If you do not have the standard scientific Python packages installed, then we
+recommend Anaconda http://continuum.io/downloads
+
+Alternatively, you could follow the instructions at :
+http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows
+
+Either way, you should then run (from the `cmd` prompt)::
+
+    pip install -f http://nipy.bic.berkeley.edu/scipy_installers/windows_wheels dipy
 
 Linux
 =====
