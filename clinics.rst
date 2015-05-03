@@ -177,6 +177,14 @@ We had a fruitful and robust discussion about:
   successful in a way that is independent of the measures the different
   methods are optimizing in doing the match?
 
+*************************************
+Seminar on diffusion imaging analysis
+*************************************
+
+May 4th, 2015
+
+by Ariel Rokem.  See: :doc:`dwi_seminar`.
+
 ********************************
 Hands-on normalization with ANTS
 ********************************
