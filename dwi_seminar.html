@@ -62,7 +62,11 @@ please wait at the elevator going down the BIC at 10 for us to come and get you
 <h3>Mac<a class="headerlink" href="#mac" title="Permalink to this headline">¶</a></h3>
 <p>If you do not have the standard scientific Python packages installed, then we
 recommend Anaconda to install the packages you need: <a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
-<p>Then you can install the diffusion imaging package (dipy) with:</p>
+<p>If you are using Anaconda, you can then do:</p>
+<div class="highlight-python"><div class="highlight"><pre>conda install vtk
+</pre></div>
+</div>
+<p>Finally you can install the diffusion imaging package (dipy) with:</p>
 <div class="highlight-python"><div class="highlight"><pre>conda install -c http://nipy.bic.berkeley.edu/scipy_installers/conda dipy
 </pre></div>
 </div>
@@ -77,7 +81,11 @@ not through Anaconda, then try:</p>
 <h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
 <p>If you do not have the standard scientific Python packages installed, then we
 recommend Anaconda <a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
-<p>Alternatively, you could follow the instructions at :
+<p>If you are using Anaconda, you should then do:</p>
+<div class="highlight-python"><div class="highlight"><pre>conda install vtk
+</pre></div>
+</div>
+<p>If you don&#8217;t want to use Anaconda, you could follow the instructions at :
 <a class="reference external" href="http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows">http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows</a></p>
 <p>Either way, you should then run (from the <cite>cmd</cite> prompt):</p>
 <div class="highlight-python"><div class="highlight"><pre>pip install -f http://nipy.bic.berkeley.edu/scipy_installers/windows_wheels dipy
@@ -147,7 +155,7 @@ pip install dipy
     </div>
     <div class="footer">
         &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
     </div>
   </body>
 </html>
