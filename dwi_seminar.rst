@@ -20,7 +20,11 @@ Mac
 If you do not have the standard scientific Python packages installed, then we
 recommend Anaconda to install the packages you need: http://continuum.io/downloads
 
-Then you can install the diffusion imaging package (dipy) with::
+If you are using Anaconda, you can then do::
+
+    conda install vtk
+
+Finally you can install the diffusion imaging package (dipy) with::
 
     conda install -c http://nipy.bic.berkeley.edu/scipy_installers/conda dipy
 
@@ -37,7 +41,11 @@ Windows
 If you do not have the standard scientific Python packages installed, then we
 recommend Anaconda http://continuum.io/downloads
 
-Alternatively, you could follow the instructions at :
+If you are using Anaconda, you should then do::
+
+    conda install vtk
+
+If you don't want to use Anaconda, you could follow the instructions at :
 http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows
 
 Either way, you should then run (from the `cmd` prompt)::
