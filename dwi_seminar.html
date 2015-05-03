@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Seminar in diffusion imaging &mdash; Berkeley imaging analysis clinic</title>
+    
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Berkeley imaging analysis clinic" href="index.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="seminar-in-diffusion-imaging">
+<h1>Seminar in diffusion imaging<a class="headerlink" href="#seminar-in-diffusion-imaging" title="Permalink to this headline">¶</a></h1>
+<p>Monday 4th, 10am-12 in the brain imaging center (BIC).</p>
+<p>The BIC needs keycard access - but we will let you in if you don&#8217;t have access,
+please wait at the elevator going down the BIC at 10 for us to come and get you
+- see: <a class="reference external" href="http://practical-neuroimaging.github.io/where_and_when.html#where">http://practical-neuroimaging.github.io/where_and_when.html#where</a></p>
+<div class="section" id="software-installation">
+<h2>Software installation<a class="headerlink" href="#software-installation" title="Permalink to this headline">¶</a></h2>
+<p>You will need some software installed on your laptop to follow along.</p>
+<div class="section" id="mac">
+<h3>Mac<a class="headerlink" href="#mac" title="Permalink to this headline">¶</a></h3>
+<p>If you do not have the standard scientific Python packages installed, then we
+recommend Anaconda to install the packages you need: <a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
+<p>Then you can install the diffusion imaging package (dipy) with:</p>
+<div class="highlight-python"><div class="highlight"><pre>conda install -c http://nipy.bic.berkeley.edu/scipy_installers/conda dipy
+</pre></div>
+</div>
+<p>If you do have the standard scientific Python packages already installed, but
+not through Anaconda, then try:</p>
+<div class="highlight-python"><div class="highlight"><pre>pip install dipy
+</pre></div>
+</div>
+<p>Please let me (<a class="reference external" href="mailto:matthew&#46;brett&#37;&#52;&#48;gmail&#46;com">matthew<span>&#46;</span>brett<span>&#64;</span>gmail<span>&#46;</span>com</a>) know if you have any problem.</p>
+</div>
+<div class="section" id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
+<p>If you do not have the standard scientific Python packages installed, then we
+recommend Anaconda <a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
+<p>Alternatively, you could follow the instructions at :
+<a class="reference external" href="http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows">http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows</a></p>
+<p>Either way, you should then run (from the <cite>cmd</cite> prompt):</p>
+<div class="highlight-python"><div class="highlight"><pre>pip install -f http://nipy.bic.berkeley.edu/scipy_installers/windows_wheels dipy
+</pre></div>
+</div>
+</div>
+<div class="section" id="linux">
+<h3>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h3>
+<p>If you are on Linux - you can install the packages you need with something
+like:</p>
+<div class="highlight-python"><div class="highlight"><pre>sudo apt-get install python-scipy python-matplotlib python-vtk ipython-notebook python-pip
+</pre></div>
+</div>
+<p>on Ubuntu or Debian, followed by:</p>
+<div class="highlight-python"><div class="highlight"><pre>pip install -U ipython[notebook]
+pip install dipy
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Seminar in diffusion imaging</a><ul>
+<li><a class="reference internal" href="#software-installation">Software installation</a><ul>
+<li><a class="reference internal" href="#mac">Mac</a></li>
+<li><a class="reference internal" href="#windows">Windows</a></li>
+<li><a class="reference internal" href="#linux">Linux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
