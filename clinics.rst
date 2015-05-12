@@ -191,8 +191,20 @@ Hands-on normalization with ANTS
 
 May 11th, 2015
 
-Arielle Tambini will show use of the ANTS registration tools to do spatial
-normalization by making a study-specific template and registering to this
-template.
+Arielle Tambini showed us how to use the ANTS registration tools.
+
+Her presentation is :download:`here </ants_condensed.pdf`.
+
+********************************************
+Journal club on FMRI noise and FMRI networks
+********************************************
+
+Daniel Sheltraw will lead a discussion on the following paper:
+
+Molly G. Bright, Kevin Murphy, Is fMRI “noise” really noise? Resting state
+nuisance regressors remove variance with network structure, NeuroImage,
+Available online 7 April 2015, ISSN 1053-8119,
+http://dx.doi.org/10.1016/j.neuroimage.2015.03.070.
+(http://www.sciencedirect.com/science/article/pii/S1053811915002669)
 
 .. include:: links_names.inc
