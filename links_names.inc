@@ -101,6 +101,7 @@
 .. _FreeSurfer: http://surfer.nmr.mgh.harvard.edu
 .. _voxbo: http://www.voxbo.org
 .. _fmristat: http://www.math.mcgill.ca/keith/fmristat
+.. _ANTS: http://stnava.github.io/ANTs
 
 .. Installation
 .. _Python(X,Y): https://code.google.com/p/pythonxy/

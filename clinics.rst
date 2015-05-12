@@ -140,7 +140,7 @@ We talked about:
 * diffeomorphic non-linear image registration for spatial normalization:
 
   * In SPM with `DARTEL <http://cslras.pbworks.com/f/DARTEL.pdf>`_;
-  * In `ANTS <http://picsl.upenn.edu/software/ants>`_;
+  * In ANTS_
 
 We also referred to the paper we'll be discussing next week.
 
@@ -156,8 +156,7 @@ Klein, Arno, et al. "Evaluation of 14 nonlinear deformation algorithms applied
 to human brain MRI registration." Neuroimage 46.3 (2009): 786-802.
 
 This paper attempts to do an objective comparison of different spatial
-normalization methods including SPM, FSL and `ANTS
-<http://stnava.github.io/ANTs>`_.
+normalization methods including SPM, FSL and ANTS_
 
 The SyN method referred to in Klein's paper is *symmetric diffeomorphic
 normalization* |--| part of the ANTS software package.
