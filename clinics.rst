@@ -193,11 +193,13 @@ May 11th, 2015
 
 Arielle Tambini showed us how to use the ANTS registration tools.
 
-Her presentation is :download:`here </ants_condensed.pdf`.
+Her presentation is :download:`here </ants_condensed.pdf>`.
 
 ********************************************
 Journal club on FMRI noise and FMRI networks
 ********************************************
+
+May 18th, 2015
 
 Daniel Sheltraw will lead a discussion on the following paper:
 
