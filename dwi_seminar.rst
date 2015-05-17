@@ -70,3 +70,11 @@ on Ubuntu or Debian, followed by::
 
     pip install -U ipython[notebook]
     pip install dipy
+
+***********
+The seminar
+***********
+
+From the notebooks at https://github.com/arokem/jov-white-matter-matters
+
+We started at https://github.com/arokem/jov-white-matter-matters/blob/master/index.ipynb
