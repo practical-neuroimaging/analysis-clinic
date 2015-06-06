@@ -208,4 +208,23 @@ Available online 7 April 2015, ISSN 1053-8119,
 http://dx.doi.org/10.1016/j.neuroimage.2015.03.070.
 (http://www.sciencedirect.com/science/article/pii/S1053811915002669)
 
+***************************************
+Journal club on false positives in FMRI
+***************************************
+
+June 8th, 2015
+
+A journal club on this paper:
+
+Eklund, A., Andersson, M., Josephson, C., Johannesson, M., and
+Knutsson, H. (2012). Does parametric fMRI analysis with SPM yield
+valid results?—An empirical study of 1484 rest datasets. NeuroImage
+61, 565–578.
+
+http://dx.doi.org/10.1016/j.neuroimage.2012.03.093
+http://www.sciencedirect.com/science/article/pii/S1053811912003825
+
+The paper suggests that SPM (and maybe other packages) can have an extremely
+high false positive rates for real data, especially data with short TR.
+
 .. include:: links_names.inc
