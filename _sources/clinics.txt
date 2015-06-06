@@ -140,7 +140,7 @@ We talked about:
 * diffeomorphic non-linear image registration for spatial normalization:
 
   * In SPM with `DARTEL <http://cslras.pbworks.com/f/DARTEL.pdf>`_;
-  * In `ANTS <http://picsl.upenn.edu/software/ants>`_;
+  * In ANTS_
 
 We also referred to the paper we'll be discussing next week.
 
@@ -156,8 +156,7 @@ Klein, Arno, et al. "Evaluation of 14 nonlinear deformation algorithms applied
 to human brain MRI registration." Neuroimage 46.3 (2009): 786-802.
 
 This paper attempts to do an objective comparison of different spatial
-normalization methods including SPM, FSL and `ANTS
-<http://stnava.github.io/ANTs>`_.
+normalization methods including SPM, FSL and ANTS_
 
 The SyN method referred to in Klein's paper is *symmetric diffeomorphic
 normalization* |--| part of the ANTS software package.
@@ -191,8 +190,41 @@ Hands-on normalization with ANTS
 
 May 11th, 2015
 
-Arielle Tambini will show use of the ANTS registration tools to do spatial
-normalization by making a study-specific template and registering to this
-template.
+Arielle Tambini showed us how to use the ANTS registration tools.
+
+Her presentation is :download:`here </ants_condensed.pdf>`.
+
+********************************************
+Journal club on FMRI noise and FMRI networks
+********************************************
+
+May 18th, 2015
+
+Daniel Sheltraw will lead a discussion on the following paper:
+
+Molly G. Bright, Kevin Murphy, Is fMRI “noise” really noise? Resting state
+nuisance regressors remove variance with network structure, NeuroImage,
+Available online 7 April 2015, ISSN 1053-8119,
+http://dx.doi.org/10.1016/j.neuroimage.2015.03.070.
+(http://www.sciencedirect.com/science/article/pii/S1053811915002669)
+
+***************************************
+Journal club on false positives in FMRI
+***************************************
+
+June 8th, 2015
+
+A journal club on this paper:
+
+Eklund, A., Andersson, M., Josephson, C., Johannesson, M., and
+Knutsson, H. (2012). Does parametric fMRI analysis with SPM yield
+valid results?—An empirical study of 1484 rest datasets. NeuroImage
+61, 565–578.
+
+http://dx.doi.org/10.1016/j.neuroimage.2012.03.093
+http://www.sciencedirect.com/science/article/pii/S1053811912003825
+
+The paper suggests that SPM (and maybe other packages) can have an extremely
+high false positive rates for real data, especially data with short TR.
 
 .. include:: links_names.inc

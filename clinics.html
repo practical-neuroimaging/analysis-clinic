@@ -147,7 +147,7 @@ medical research 12.5 (2003): 419-446.
 <a class="reference external" href="http://nipy.org/nibabel/coordinate_systems.html">http://nipy.org/nibabel/coordinate_systems.html</a> for a tutorial;</li>
 <li>diffeomorphic non-linear image registration for spatial normalization:<ul>
 <li>In SPM with <a class="reference external" href="http://cslras.pbworks.com/f/DARTEL.pdf">DARTEL</a>;</li>
-<li>In <a class="reference external" href="http://picsl.upenn.edu/software/ants">ANTS</a>;</li>
+<li>In <a class="reference external" href="http://stnava.github.io/ANTs">ANTS</a></li>
 </ul>
 </li>
 </ul>
@@ -160,7 +160,7 @@ medical research 12.5 (2003): 419-446.
 <p>Klein, Arno, et al. &#8220;Evaluation of 14 nonlinear deformation algorithms applied
 to human brain MRI registration.&#8221; Neuroimage 46.3 (2009): 786-802.</p>
 <p>This paper attempts to do an objective comparison of different spatial
-normalization methods including SPM, FSL and <a class="reference external" href="http://stnava.github.io/ANTs">ANTS</a>.</p>
+normalization methods including SPM, FSL and <a class="reference external" href="http://stnava.github.io/ANTs">ANTS</a></p>
 <p>The SyN method referred to in Klein&#8217;s paper is <em>symmetric diffeomorphic
 normalization</em> – part of the ANTS software package.</p>
 <p>Another less well-known package that did well in the tests is <a class="reference external" href="https://www.nitrc.org/projects/art">ART</a>.</p>
@@ -185,9 +185,31 @@ methods are optimizing in doing the match?</li>
 <div class="section" id="hands-on-normalization-with-ants">
 <h2>Hands-on normalization with ANTS<a class="headerlink" href="#hands-on-normalization-with-ants" title="Permalink to this headline">¶</a></h2>
 <p>May 11th, 2015</p>
-<p>Arielle Tambini will show use of the ANTS registration tools to do spatial
-normalization by making a study-specific template and registering to this
-template.</p>
+<p>Arielle Tambini showed us how to use the ANTS registration tools.</p>
+<p>Her presentation is <a class="reference download internal" href="_downloads/ants_condensed.pdf"><tt class="xref download docutils literal"><span class="pre">here</span></tt></a>.</p>
+</div>
+<div class="section" id="journal-club-on-fmri-noise-and-fmri-networks">
+<h2>Journal club on FMRI noise and FMRI networks<a class="headerlink" href="#journal-club-on-fmri-noise-and-fmri-networks" title="Permalink to this headline">¶</a></h2>
+<p>May 18th, 2015</p>
+<p>Daniel Sheltraw will lead a discussion on the following paper:</p>
+<p>Molly G. Bright, Kevin Murphy, Is fMRI “noise” really noise? Resting state
+nuisance regressors remove variance with network structure, NeuroImage,
+Available online 7 April 2015, ISSN 1053-8119,
+<a class="reference external" href="http://dx.doi.org/10.1016/j.neuroimage.2015.03.070">http://dx.doi.org/10.1016/j.neuroimage.2015.03.070</a>.
+(<a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1053811915002669">http://www.sciencedirect.com/science/article/pii/S1053811915002669</a>)</p>
+</div>
+<div class="section" id="journal-club-on-false-positives-in-fmri">
+<h2>Journal club on false positives in FMRI<a class="headerlink" href="#journal-club-on-false-positives-in-fmri" title="Permalink to this headline">¶</a></h2>
+<p>June 8th, 2015</p>
+<p>A journal club on this paper:</p>
+<p>Eklund, A., Andersson, M., Josephson, C., Johannesson, M., and
+Knutsson, H. (2012). Does parametric fMRI analysis with SPM yield
+valid results?—An empirical study of 1484 rest datasets. NeuroImage
+61, 565–578.</p>
+<p><a class="reference external" href="http://dx.doi.org/10.1016/j.neuroimage.2012.03.093">http://dx.doi.org/10.1016/j.neuroimage.2012.03.093</a>
+<a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1053811912003825">http://www.sciencedirect.com/science/article/pii/S1053811912003825</a></p>
+<p>The paper suggests that SPM (and maybe other packages) can have an extremely
+high false positive rates for real data, especially data with short TR.</p>
 </div>
 </div>
 
@@ -213,6 +235,8 @@ template.</p>
 <li><a class="reference internal" href="#assessing-normalization-methods">Assessing normalization methods</a></li>
 <li><a class="reference internal" href="#seminar-on-diffusion-imaging-analysis">Seminar on diffusion imaging analysis</a></li>
 <li><a class="reference internal" href="#hands-on-normalization-with-ants">Hands-on normalization with ANTS</a></li>
+<li><a class="reference internal" href="#journal-club-on-fmri-noise-and-fmri-networks">Journal club on FMRI noise and FMRI networks</a></li>
+<li><a class="reference internal" href="#journal-club-on-false-positives-in-fmri">Journal club on false positives in FMRI</a></li>
 </ul>
 </li>
 </ul>
@@ -257,7 +281,7 @@ template.</p>
     </div>
     <div class="footer">
         &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
     </div>
   </body>
 </html>
