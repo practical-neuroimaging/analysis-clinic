@@ -227,4 +227,17 @@ http://www.sciencedirect.com/science/article/pii/S1053811912003825
 The paper suggests that SPM (and maybe other packages) can have an extremely
 high false positive rates for real data, especially data with short TR.
 
+We also briefly looked at the `follow up conference paper
+<https://dl.dropboxusercontent.com/u/4494604/article.pdf>`_ discussed in `this
+NeuroSkeptic
+<http://blogs.discovermagazine.com/neuroskeptic/2015/05/07/inflated-false-positives-in-fmri-spm-fsl-and-afni>`_
+blog post.
+
+The general conclusion is that family-wise false positive error rates for
+standard first-level (within-subject) FMRI designs seem to be far too high in
+real (resting state) data.  We started off discussing the very simple SPM
+autocorrelation model, but is was not clear that this was in fact at fault, and
+it appears from the follow-up paper that FSL has a worse false positive problem
+although it has a more sophisticated autocorrelation model.
+
 .. include:: links_names.inc
