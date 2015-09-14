@@ -254,9 +254,9 @@ Anwar also talked about the large reduction in subject motion from the custom
 
 (No meeting on June 22nd)
 
-****************************************
-Journal club on detection motion in FMRI
-****************************************
+*******************************************
+Journal club on detection of motion in FMRI
+*******************************************
 
 June 29th, 2015
 
