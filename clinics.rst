@@ -240,4 +240,141 @@ autocorrelation model, but is was not clear that this was in fact at fault, and
 it appears from the follow-up paper that FSL has a worse false positive problem
 although it has a more sophisticated autocorrelation model.
 
+**************************************************************
+Effect of movement and spatial preprocessing on functional SNR
+**************************************************************
+
+June 15th, 2015
+
+A presentation by Anwar Nunez-Elizalde on some analyses of signal to noise with
+and without spatial processing such as motion correction.
+
+Anwar also talked about the large reduction in subject motion from the custom
+"headcase" head restraint the Gallant lab are using.
+
+(No meeting on June 22nd)
+
+****************************************
+Journal club on detection motion in FMRI
+****************************************
+
+June 29th, 2015
+
+We looked at:
+
+Erik B. Beall, Mark J. Lowe, SimPACE: Generating simulated motion
+corrupted BOLD data with synthetic-navigated acquisition for the
+development and evaluation of SLOMOCO: A new, highly effective
+slicewise motion correction, NeuroImage, Volume 101, 1 November 2014,
+Pages 21-34, ISSN 1053-8119,
+http://dx.doi.org/10.1016/j.neuroimage.2014.06.038.
+(http://www.sciencedirect.com/science/article/pii/S1053811914005151)
+
+We concentrated on the question of how well standard volumetric means of
+identifying motion-corrupted fMRI data volumes perform.
+
+*******************************
+Journal club on reproducibility
+*******************************
+
+July 6th, 2015
+
+This was a discussion of what we mean by reproducibility in neuroimaging.
+W went through the arguments in Killeen et al. and discussed if the Killeen
+"p-rep" proposal is a good one -or not- for neuroimaging studies.
+
+Killeen, Peter R. "An alternative to null-hypothesis significance tests."
+Psychological science 16.5 (2005): 345-353.
+
+******************************
+Discussion of model validation
+******************************
+
+July 13th, 2015
+
+We discussed the papers below.  The intention was to have some time to think of
+the problem more generally in terms of prediction and beyond activation models
+- for instance for the ICA model.
+
+Loh, Ji Meng, Martin A. Lindquist, and Tor D. Wager. "Residual analysis for
+detecting mis-modeling in fMRI." Statistica Sinica 18.4 (2008): 1421.
+http://www.stat.columbia.edu/~martin/Papers/SS_resid.pdf
+
+Luo, Wen-Lin, and Thomas E. Nichols. "Diagnosis and exploration of massively
+univariate neuroimaging models." NeuroImage 19.3 (2003): 1014-1032.
+http://www.fil.ion.ucl.ac.uk/spm/doc/papers/LuoNichols.pdf
+
+In the discussion, JB also mentioned:
+
+Jernigan, Terry L., et al. "More “mapping” in brain mapping: statistical
+comparison of effects." Human brain mapping 19.2 (2003): 90-95.
+
+*************************************************
+Using components of CSF signal for denoising FMRI
+*************************************************
+
+July 20, 2015
+
+We discussed regressing out white matter and CSF components for denoising. The
+question is: how do we choose the number of components?
+
+We discussed that as a model selection question.
+
+***************************************************
+Journal club on denoising regression models in FMRI
+***************************************************
+
+July 27th, 2015
+
+We discussed:
+
+Kay, Kendrick N., et al. "GLMdenoise: a fast, automated technique for denoising
+task-based fMRI data." Frontiers in neuroscience 7 (2013).
+http://journal.frontiersin.org/article/10.3389/fnins.2013.00247/abstract
+
+********************
+OpenFMRI data format
+********************
+
+August 10, 2015
+
+JB presented a proposal for the new OpenFMRI data format (called "Brain Imaging
+Data Structure") developed by the OpenFMRI folks at Stanford and INCF
+neuroimaging group. It is meant to be a standard that will ease sharing of FMRI
+/ other brain imaging data and be easy to implement.
+
+******************************************************
+Journal club on reliability in functional connectivity
+******************************************************
+
+August 31st, 2015
+
+Dan Lurie led a discussion of:
+
+Mueller, Sophia, et al. "Reliability correction for functional connectivity:
+Theory and implementation." Human Brain Mapping (2015).
+http://onlinelibrary.wiley.com/doi/10.1002/hbm.22947/full
+
+(September 7th, Labor day, no meeting)
+
+***********************************************
+Journal club in characterizing motion artefacts
+***********************************************
+
+We discussed:
+
+Power, Jonathan D., et al. "Methods to detect, characterize, and remove motion
+artifact in resting state fMRI." Neuroimage 84 (2014): 320-341.
+http://www.sciencedirect.com/science/article/pii/S1053811913009117
+
+To start, Matthew ran some nipy diagnostics on a Berkeley FMRI dataset, to show
+that the top 20 PCA components appear to have signal related to movement,
+before and after standard SPM motion correction.
+
+Then we looked at Power et al's nice 2D plots of FMRI runs, showing large
+changes across many voxels that appear to be due to movement.  Standard
+regression models using motion parameters and CSF / WM signal don't do a good
+job of removing these, but regressing global signal and difference in global
+signal does appear to work well in reducing the effect.
+
 .. include:: links_names.inc
