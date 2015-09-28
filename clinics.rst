@@ -361,6 +361,8 @@ http://onlinelibrary.wiley.com/doi/10.1002/hbm.22947/full
 Journal club in characterizing motion artefacts
 ***********************************************
 
+September 14th, 2015
+
 We discussed:
 
 Power, Jonathan D., et al. "Methods to detect, characterize, and remove motion
@@ -376,5 +378,37 @@ changes across many voxels that appear to be due to movement.  Standard
 regression models using motion parameters and CSF / WM signal don't do a good
 job of removing these, but regressing global signal and difference in global
 signal does appear to work well in reducing the effect.
+
+*********************************
+Discussion of ROI voxel selection
+*********************************
+
+September 21st, 2015
+
+Anna walked us through a problem selecting activated voxels, using MATLAB.
+
+Among the things we discussed was whether to select voxels on their effect size
+(top half of t-statistic), or effect size relative to variance (t-statistic).
+
+******************************************
+Removing noise with constrained regression
+******************************************
+
+September 28th, 2015
+
+MB started by showing some systematic noise plots on example data, as we saw in
+the Power et al 2013 paper a few weeks back.
+
+Then we looked at whether it's possible to use constrained regression to look
+for, and regress out, scans where there exists large amounts of noise variance
+shared across voxels.  There is the (edited) notebook:
+
+http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/powers_plots.ipynb
+
+Dan L pointed us to this reference:
+
+Satterthwaite, Theodore D., et al. "An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data." Neuroimage 64 (2013): 240-256.
+
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811142/
 
 .. include:: links_names.inc
