@@ -401,9 +401,11 @@ the Power et al 2013 paper a few weeks back.
 
 Then we looked at whether it's possible to use constrained regression to look
 for, and regress out, scans where there exists large amounts of noise variance
-shared across voxels.  There is the (edited) notebook:
+shared across voxels.  There is the (edited) notebook, rendered nicely:
 
-http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/powers_plots.ipynb
+http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/_downloads/powers_plots.ipynb
+
+You can also :download:`download the notebook <powers_plots.ipynb>`.
 
 Dan L pointed us to this reference:
 
