@@ -23,7 +23,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="Berkeley imaging analysis clinic" href="index.html" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
@@ -32,22 +32,22 @@
 <![endif]-->
 
   </head>
-  <body>
+  <body role="document">
 
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
   <div class="section" id="seminar-in-diffusion-imaging">
 <h1>Seminar in diffusion imaging<a class="headerlink" href="#seminar-in-diffusion-imaging" title="Permalink to this headline">¶</a></h1>
@@ -66,7 +66,7 @@ can help you with your install.</p>
 <p>If you do not have the standard scientific Python packages installed, then we
 recommend Anaconda to install the packages you need: <a class="reference external" href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
 <p>If you are using Anaconda, you can then do the following from the
-<tt class="docutils literal"><span class="pre">Terminal.app</span></tt> command prompt:</p>
+<code class="docutils literal"><span class="pre">Terminal.app</span></code> command prompt:</p>
 <div class="highlight-python"><div class="highlight"><pre>conda install vtk
 </pre></div>
 </div>
@@ -79,7 +79,7 @@ not through Anaconda, then try:</p>
 <div class="highlight-python"><div class="highlight"><pre>pip install dipy
 </pre></div>
 </div>
-<p>from the <tt class="docutils literal"><span class="pre">Terminal.app</span></tt> command prompt.</p>
+<p>from the <code class="docutils literal"><span class="pre">Terminal.app</span></code> command prompt.</p>
 </div>
 <div class="section" id="windows">
 <h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
@@ -92,7 +92,7 @@ prompt:</p>
 </div>
 <p>If you don&#8217;t want to use Anaconda, you could follow the instructions at :
 <a class="reference external" href="http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows">http://practical-neuroimaging.github.io/installation.html#if-you-are-using-windows</a></p>
-<p>Either way, you should then run (from the <tt class="docutils literal"><span class="pre">cmd</span></tt> prompt):</p>
+<p>Either way, you should then run (from the <code class="docutils literal"><span class="pre">cmd</span></code> prompt):</p>
 <div class="highlight-python"><div class="highlight"><pre>pip install -f http://nipy.bic.berkeley.edu/scipy_installers/windows_wheels dipy
 </pre></div>
 </div>
@@ -122,7 +122,7 @@ pip install dipy
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
@@ -138,7 +138,7 @@ pip install dipy
 </li>
 </ul>
 
-<div id="searchbox" style="display: none">
+<div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
       <input type="text" name="q" />
@@ -155,18 +155,18 @@ pip install dipy
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>
-    <div class="footer">
+    <div class="footer" role="contentinfo">
         &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
     </div>
   </body>
 </html>

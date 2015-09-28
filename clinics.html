@@ -23,7 +23,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="Berkeley imaging analysis clinic" href="index.html" />
     <link rel="next" title="Topics proposed for future clinics" href="proposed_topics.html" />
     <link rel="prev" title="Where and when?" href="where_when.html" />
@@ -34,9 +34,9 @@
 <![endif]-->
 
   </head>
-  <body>
+  <body role="document">
 
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -48,14 +48,14 @@
         <li class="right" >
           <a href="where_when.html" title="Where and when?"
              accesskey="P">previous</a> |</li>
-        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
   <div class="section" id="clinics-to-date">
 <h1>Clinics to date<a class="headerlink" href="#clinics-to-date" title="Permalink to this headline">¶</a></h1>
@@ -87,7 +87,7 @@ fMRI; Hemodynamic response; Delay; Brain imaging; Basis sets; Group analysis</p>
 <p>Matthew mentioned the Worsley average (global) F-test for testing if a
 particular F-test is significant on average across voxels – and therefore
 whether to drop or keep the regressors in the F test.  There is some very old
-MATLAB code to compute this test <a class="reference download internal" href="_downloads/meanF.m"><tt class="xref download docutils literal"><span class="pre">here</span></tt></a> that may
+MATLAB code to compute this test <a class="reference download internal" href="_downloads/meanF.m"><code class="xref download docutils literal"><span class="pre">here</span></code></a> that may
 well need adapting to newer versions of SPM.</p>
 </div>
 <div class="section" id="correlated-regressors-power">
@@ -100,7 +100,7 @@ well need adapting to newer versions of SPM.</p>
 <div class="section" id="within-subject-registration-and-fieldmaps">
 <h2>Within-subject registration and fieldmaps<a class="headerlink" href="#within-subject-registration-and-fieldmaps" title="Permalink to this headline">¶</a></h2>
 <p>March 9, 2015</p>
-<p>Exploring some DICOMs from the <tt class="docutils literal"><span class="pre">gre_field_mapping</span></tt> sequence - <a class="reference external" href="http://nbviewer.ipython.org/github/practical-neuroimaging/analysis-clinic/blob/master/investigating_fieldmaps.ipynb">notebook on
+<p>Exploring some DICOMs from the <code class="docutils literal"><span class="pre">gre_field_mapping</span></code> sequence - <a class="reference external" href="http://nbviewer.ipython.org/github/practical-neuroimaging/analysis-clinic/blob/master/investigating_fieldmaps.ipynb">notebook on
 investigating fieldmaps</a>.</p>
 <p>Useful links:</p>
 <ul class="simple">
@@ -114,7 +114,7 @@ echo planar images from Bo field variations. MRM 34:65-73.</p>
 <div class="section" id="fieldmaps-extravaganza">
 <h2>Fieldmaps extravaganza<a class="headerlink" href="#fieldmaps-extravaganza" title="Permalink to this headline">¶</a></h2>
 <p>March 16, 2015</p>
-<p>Alex Huth kindly provided his <a class="reference download internal" href="_downloads/EpiUnwarping.pdf"><tt class="xref download docutils literal"><span class="pre">presentation</span> <span class="pre">on</span> <span class="pre">EPI</span> <span class="pre">unwarping</span></tt></a>.</p>
+<p>Alex Huth kindly provided his <a class="reference download internal" href="_downloads/EpiUnwarping.pdf"><code class="xref download docutils literal"><span class="pre">presentation</span> <span class="pre">on</span> <span class="pre">EPI</span> <span class="pre">unwarping</span></code></a>.</p>
 </div>
 <div class="section" id="optimizing-designs-orthogonalizing-regressors">
 <h2>Optimizing designs, orthogonalizing regressors<a class="headerlink" href="#optimizing-designs-orthogonalizing-regressors" title="Permalink to this headline">¶</a></h2>
@@ -135,8 +135,8 @@ medical research 12.5 (2003): 419-446.
 <div class="section" id="on-choosing-a-connectivity-metric">
 <h2>On choosing a connectivity metric<a class="headerlink" href="#on-choosing-a-connectivity-metric" title="Permalink to this headline">¶</a></h2>
 <p>April 13th, 2015</p>
-<p>Derek Nee presented on <a class="reference download internal" href="_downloads/choosing_dcm.pdf"><tt class="xref download docutils literal"><span class="pre">How</span> <span class="pre">I</span> <span class="pre">Learned</span> <span class="pre">to</span> <span class="pre">Stop</span>
-<span class="pre">Worrying</span> <span class="pre">and</span> <span class="pre">Use</span> <span class="pre">DCM</span></tt></a>.</p>
+<p>Derek Nee presented on <a class="reference download internal" href="_downloads/choosing_dcm.pdf"><code class="xref download docutils literal"><span class="pre">How</span> <span class="pre">I</span> <span class="pre">Learned</span> <span class="pre">to</span> <span class="pre">Stop</span>
+<span class="pre">Worrying</span> <span class="pre">and</span> <span class="pre">Use</span> <span class="pre">DCM</span></code></a>.</p>
 </div>
 <div class="section" id="spatial-normalization">
 <h2>Spatial normalization<a class="headerlink" href="#spatial-normalization" title="Permalink to this headline">¶</a></h2>
@@ -186,7 +186,7 @@ methods are optimizing in doing the match?</li>
 <h2>Hands-on normalization with ANTS<a class="headerlink" href="#hands-on-normalization-with-ants" title="Permalink to this headline">¶</a></h2>
 <p>May 11th, 2015</p>
 <p>Arielle Tambini showed us how to use the ANTS registration tools.</p>
-<p>Her presentation is <a class="reference download internal" href="_downloads/ants_condensed.pdf"><tt class="xref download docutils literal"><span class="pre">here</span></tt></a>.</p>
+<p>Her presentation is <a class="reference download internal" href="_downloads/ants_condensed.pdf"><code class="xref download docutils literal"><span class="pre">here</span></code></a>.</p>
 </div>
 <div class="section" id="journal-club-on-fmri-noise-and-fmri-networks">
 <h2>Journal club on FMRI noise and FMRI networks<a class="headerlink" href="#journal-club-on-fmri-noise-and-fmri-networks" title="Permalink to this headline">¶</a></h2>
@@ -210,6 +210,131 @@ valid results?—An empirical study of 1484 rest datasets. NeuroImage
 <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1053811912003825">http://www.sciencedirect.com/science/article/pii/S1053811912003825</a></p>
 <p>The paper suggests that SPM (and maybe other packages) can have an extremely
 high false positive rates for real data, especially data with short TR.</p>
+<p>We also briefly looked at the <a class="reference external" href="https://dl.dropboxusercontent.com/u/4494604/article.pdf">follow up conference paper</a> discussed in <a class="reference external" href="http://blogs.discovermagazine.com/neuroskeptic/2015/05/07/inflated-false-positives-in-fmri-spm-fsl-and-afni">this
+NeuroSkeptic</a>
+blog post.</p>
+<p>The general conclusion is that family-wise false positive error rates for
+standard first-level (within-subject) FMRI designs seem to be far too high in
+real (resting state) data.  We started off discussing the very simple SPM
+autocorrelation model, but is was not clear that this was in fact at fault, and
+it appears from the follow-up paper that FSL has a worse false positive problem
+although it has a more sophisticated autocorrelation model.</p>
+</div>
+<div class="section" id="effect-of-movement-and-spatial-preprocessing-on-functional-snr">
+<h2>Effect of movement and spatial preprocessing on functional SNR<a class="headerlink" href="#effect-of-movement-and-spatial-preprocessing-on-functional-snr" title="Permalink to this headline">¶</a></h2>
+<p>June 15th, 2015</p>
+<p>A presentation by Anwar Nunez-Elizalde on some analyses of signal to noise with
+and without spatial processing such as motion correction.</p>
+<p>Anwar also talked about the large reduction in subject motion from the custom
+&#8220;headcase&#8221; head restraint the Gallant lab are using.</p>
+<p>(No meeting on June 22nd)</p>
+</div>
+<div class="section" id="journal-club-on-detection-of-motion-in-fmri">
+<h2>Journal club on detection of motion in FMRI<a class="headerlink" href="#journal-club-on-detection-of-motion-in-fmri" title="Permalink to this headline">¶</a></h2>
+<p>June 29th, 2015</p>
+<p>We looked at:</p>
+<p>Erik B. Beall, Mark J. Lowe, SimPACE: Generating simulated motion
+corrupted BOLD data with synthetic-navigated acquisition for the
+development and evaluation of SLOMOCO: A new, highly effective
+slicewise motion correction, NeuroImage, Volume 101, 1 November 2014,
+Pages 21-34, ISSN 1053-8119,
+<a class="reference external" href="http://dx.doi.org/10.1016/j.neuroimage.2014.06.038">http://dx.doi.org/10.1016/j.neuroimage.2014.06.038</a>.
+(<a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1053811914005151">http://www.sciencedirect.com/science/article/pii/S1053811914005151</a>)</p>
+<p>We concentrated on the question of how well standard volumetric means of
+identifying motion-corrupted fMRI data volumes perform.</p>
+</div>
+<div class="section" id="journal-club-on-reproducibility">
+<h2>Journal club on reproducibility<a class="headerlink" href="#journal-club-on-reproducibility" title="Permalink to this headline">¶</a></h2>
+<p>July 6th, 2015</p>
+<p>This was a discussion of what we mean by reproducibility in neuroimaging.
+W went through the arguments in Killeen et al. and discussed if the Killeen
+&#8220;p-rep&#8221; proposal is a good one -or not- for neuroimaging studies.</p>
+<p>Killeen, Peter R. &#8220;An alternative to null-hypothesis significance tests.&#8221;
+Psychological science 16.5 (2005): 345-353.</p>
+</div>
+<div class="section" id="discussion-of-model-validation">
+<h2>Discussion of model validation<a class="headerlink" href="#discussion-of-model-validation" title="Permalink to this headline">¶</a></h2>
+<p>July 13th, 2015</p>
+<p>We discussed the papers below.  The intention was to have some time to think of
+the problem more generally in terms of prediction and beyond activation models
+- for instance for the ICA model.</p>
+<p>Loh, Ji Meng, Martin A. Lindquist, and Tor D. Wager. &#8220;Residual analysis for
+detecting mis-modeling in fMRI.&#8221; Statistica Sinica 18.4 (2008): 1421.
+<a class="reference external" href="http://www.stat.columbia.edu/~martin/Papers/SS_resid.pdf">http://www.stat.columbia.edu/~martin/Papers/SS_resid.pdf</a></p>
+<p>Luo, Wen-Lin, and Thomas E. Nichols. &#8220;Diagnosis and exploration of massively
+univariate neuroimaging models.&#8221; NeuroImage 19.3 (2003): 1014-1032.
+<a class="reference external" href="http://www.fil.ion.ucl.ac.uk/spm/doc/papers/LuoNichols.pdf">http://www.fil.ion.ucl.ac.uk/spm/doc/papers/LuoNichols.pdf</a></p>
+<p>In the discussion, JB also mentioned:</p>
+<p>Jernigan, Terry L., et al. &#8220;More “mapping” in brain mapping: statistical
+comparison of effects.&#8221; Human brain mapping 19.2 (2003): 90-95.</p>
+</div>
+<div class="section" id="using-components-of-csf-signal-for-denoising-fmri">
+<h2>Using components of CSF signal for denoising FMRI<a class="headerlink" href="#using-components-of-csf-signal-for-denoising-fmri" title="Permalink to this headline">¶</a></h2>
+<p>July 20, 2015</p>
+<p>We discussed regressing out white matter and CSF components for denoising. The
+question is: how do we choose the number of components?</p>
+<p>We discussed that as a model selection question.</p>
+</div>
+<div class="section" id="journal-club-on-denoising-regression-models-in-fmri">
+<h2>Journal club on denoising regression models in FMRI<a class="headerlink" href="#journal-club-on-denoising-regression-models-in-fmri" title="Permalink to this headline">¶</a></h2>
+<p>July 27th, 2015</p>
+<p>We discussed:</p>
+<p>Kay, Kendrick N., et al. &#8220;GLMdenoise: a fast, automated technique for denoising
+task-based fMRI data.&#8221; Frontiers in neuroscience 7 (2013).
+<a class="reference external" href="http://journal.frontiersin.org/article/10.3389/fnins.2013.00247/abstract">http://journal.frontiersin.org/article/10.3389/fnins.2013.00247/abstract</a></p>
+</div>
+<div class="section" id="openfmri-data-format">
+<h2>OpenFMRI data format<a class="headerlink" href="#openfmri-data-format" title="Permalink to this headline">¶</a></h2>
+<p>August 10, 2015</p>
+<p>JB presented a proposal for the new OpenFMRI data format (called &#8220;Brain Imaging
+Data Structure&#8221;) developed by the OpenFMRI folks at Stanford and INCF
+neuroimaging group. It is meant to be a standard that will ease sharing of FMRI
+/ other brain imaging data and be easy to implement.</p>
+</div>
+<div class="section" id="journal-club-on-reliability-in-functional-connectivity">
+<h2>Journal club on reliability in functional connectivity<a class="headerlink" href="#journal-club-on-reliability-in-functional-connectivity" title="Permalink to this headline">¶</a></h2>
+<p>August 31st, 2015</p>
+<p>Dan Lurie led a discussion of:</p>
+<p>Mueller, Sophia, et al. &#8220;Reliability correction for functional connectivity:
+Theory and implementation.&#8221; Human Brain Mapping (2015).
+<a class="reference external" href="http://onlinelibrary.wiley.com/doi/10.1002/hbm.22947/full">http://onlinelibrary.wiley.com/doi/10.1002/hbm.22947/full</a></p>
+<p>(September 7th, Labor day, no meeting)</p>
+</div>
+<div class="section" id="journal-club-in-characterizing-motion-artefacts">
+<h2>Journal club in characterizing motion artefacts<a class="headerlink" href="#journal-club-in-characterizing-motion-artefacts" title="Permalink to this headline">¶</a></h2>
+<p>September 14th, 2015</p>
+<p>We discussed:</p>
+<p>Power, Jonathan D., et al. &#8220;Methods to detect, characterize, and remove motion
+artifact in resting state fMRI.&#8221; Neuroimage 84 (2014): 320-341.
+<a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S1053811913009117">http://www.sciencedirect.com/science/article/pii/S1053811913009117</a></p>
+<p>To start, Matthew ran some nipy diagnostics on a Berkeley FMRI dataset, to show
+that the top 20 PCA components appear to have signal related to movement,
+before and after standard SPM motion correction.</p>
+<p>Then we looked at Power et al&#8217;s nice 2D plots of FMRI runs, showing large
+changes across many voxels that appear to be due to movement.  Standard
+regression models using motion parameters and CSF / WM signal don&#8217;t do a good
+job of removing these, but regressing global signal and difference in global
+signal does appear to work well in reducing the effect.</p>
+</div>
+<div class="section" id="discussion-of-roi-voxel-selection">
+<h2>Discussion of ROI voxel selection<a class="headerlink" href="#discussion-of-roi-voxel-selection" title="Permalink to this headline">¶</a></h2>
+<p>September 21st, 2015</p>
+<p>Anna walked us through a problem selecting activated voxels, using MATLAB.</p>
+<p>Among the things we discussed was whether to select voxels on their effect size
+(top half of t-statistic), or effect size relative to variance (t-statistic).</p>
+</div>
+<div class="section" id="removing-noise-with-constrained-regression">
+<h2>Removing noise with constrained regression<a class="headerlink" href="#removing-noise-with-constrained-regression" title="Permalink to this headline">¶</a></h2>
+<p>September 28th, 2015</p>
+<p>MB started by showing some systematic noise plots on example data, as we saw in
+the Power et al 2013 paper a few weeks back.</p>
+<p>Then we looked at whether it&#8217;s possible to use constrained regression to look
+for, and regress out, scans where there exists large amounts of noise variance
+shared across voxels.  There is the (edited) notebook:</p>
+<p><a class="reference external" href="http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/powers_plots.ipynb">http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/powers_plots.ipynb</a></p>
+<p>Dan L pointed us to this reference:</p>
+<p>Satterthwaite, Theodore D., et al. &#8220;An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data.&#8221; Neuroimage 64 (2013): 240-256.</p>
+<p><a class="reference external" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811142/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811142/</a></p>
 </div>
 </div>
 
@@ -217,7 +342,7 @@ high false positive rates for real data, especially data with short TR.</p>
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
@@ -237,6 +362,17 @@ high false positive rates for real data, especially data with short TR.</p>
 <li><a class="reference internal" href="#hands-on-normalization-with-ants">Hands-on normalization with ANTS</a></li>
 <li><a class="reference internal" href="#journal-club-on-fmri-noise-and-fmri-networks">Journal club on FMRI noise and FMRI networks</a></li>
 <li><a class="reference internal" href="#journal-club-on-false-positives-in-fmri">Journal club on false positives in FMRI</a></li>
+<li><a class="reference internal" href="#effect-of-movement-and-spatial-preprocessing-on-functional-snr">Effect of movement and spatial preprocessing on functional SNR</a></li>
+<li><a class="reference internal" href="#journal-club-on-detection-of-motion-in-fmri">Journal club on detection of motion in FMRI</a></li>
+<li><a class="reference internal" href="#journal-club-on-reproducibility">Journal club on reproducibility</a></li>
+<li><a class="reference internal" href="#discussion-of-model-validation">Discussion of model validation</a></li>
+<li><a class="reference internal" href="#using-components-of-csf-signal-for-denoising-fmri">Using components of CSF signal for denoising FMRI</a></li>
+<li><a class="reference internal" href="#journal-club-on-denoising-regression-models-in-fmri">Journal club on denoising regression models in FMRI</a></li>
+<li><a class="reference internal" href="#openfmri-data-format">OpenFMRI data format</a></li>
+<li><a class="reference internal" href="#journal-club-on-reliability-in-functional-connectivity">Journal club on reliability in functional connectivity</a></li>
+<li><a class="reference internal" href="#journal-club-in-characterizing-motion-artefacts">Journal club in characterizing motion artefacts</a></li>
+<li><a class="reference internal" href="#discussion-of-roi-voxel-selection">Discussion of ROI voxel selection</a></li>
+<li><a class="reference internal" href="#removing-noise-with-constrained-regression">Removing noise with constrained regression</a></li>
 </ul>
 </li>
 </ul>
@@ -247,7 +383,7 @@ high false positive rates for real data, especially data with short TR.</p>
   <h4>Next topic</h4>
   <p class="topless"><a href="proposed_topics.html"
                         title="next chapter">Topics proposed for future clinics</a></p>
-<div id="searchbox" style="display: none">
+<div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
       <input type="text" name="q" />
@@ -264,7 +400,7 @@ high false positive rates for real data, especially data with short TR.</p>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -276,12 +412,12 @@ high false positive rates for real data, especially data with short TR.</p>
         <li class="right" >
           <a href="where_when.html" title="Where and when?"
              >previous</a> |</li>
-        <li><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">Berkeley imaging analysis clinic</a> &raquo;</li> 
       </ul>
     </div>
-    <div class="footer">
+    <div class="footer" role="contentinfo">
         &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
     </div>
   </body>
 </html>
