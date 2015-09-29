@@ -407,6 +407,9 @@ http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic
 
 You can also :download:`download the notebook <powers_plots.ipynb>`.
 
+We were also looking at the `scikit-learn LASSO description
+<http://scikit-learn.org/stable/modules/linear_model.html#lasso>`_.
+
 Dan L pointed us to this reference:
 
 Satterthwaite, Theodore D., et al. "An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data." Neuroimage 64 (2013): 240-256.
