@@ -429,4 +429,12 @@ The code for brainspell is at: https://github.com/r03ert0/brainspell
 The website is at: http://brainspell.org - but you may need to view it using
 Firefox to avoid startup errors.
 
+********************
+Introduction to nipy
+********************
+
+June 21st, 2016
+
+See: :doc:`nipy_intro`.
+
 .. include:: links_names.inc
