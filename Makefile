@@ -179,10 +179,8 @@ pseudoxml:
 git-clean:
 	git clean -fxd
 
-gh-pages: git-clean html
-	git co gh-pages
-	git rm -r .
-	git checkout HEAD -- .gitignore README.md .nojekyll
-	cp -r _build/html/* . # your sphinx build directory
-	git stage .
-	@echo 'Commit and push when ready or git reset --hard && git checkout source to revert'
+github: html
+	ghp-import -n $(BUILDDIR)/html/
+	git push origin gh-pages:gh-pages --force
+	@echo
+	@echo "Published to Github"
