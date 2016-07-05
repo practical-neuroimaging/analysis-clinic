@@ -6,6 +6,8 @@ Clinics to date
 Temporal derivative and slice timing
 ************************************
 
+February 2, 2015
+
 Notebook on `temporal derivatives
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/temporal_derivatives.ipynb>`_
 
@@ -106,7 +108,7 @@ Notebook on `correlated regressors
 Multiple comparison correction, non-parametric methods
 ******************************************************
 
-April 6th, 2015
+April 6, 2015
 
 Notebook on `FDR
 <http://nbviewer.ipython.org/github/practical-neuroimaging/pna-notebooks/blob/master/FDR.ipynb>`_
@@ -122,7 +124,7 @@ http://www-personal.umich.edu/~nichols/FWEfNI.pdf
 On choosing a connectivity metric
 *********************************
 
-April 13th, 2015
+April 13, 2015
 
 Derek Nee presented on :download:`How I Learned to Stop
 Worrying and Use DCM <choosing_dcm.pdf>`.
@@ -131,7 +133,7 @@ Worrying and Use DCM <choosing_dcm.pdf>`.
 Spatial normalization
 *********************
 
-April 20th, 2015
+April 20, 2015
 
 We talked about:
 
@@ -148,7 +150,7 @@ We also referred to the paper we'll be discussing next week.
 Assessing normalization methods
 *******************************
 
-April 27th, 2015
+April 27, 2015
 
 A journal club on:
 
@@ -180,7 +182,7 @@ We had a fruitful and robust discussion about:
 Seminar on diffusion imaging analysis
 *************************************
 
-May 4th, 2015
+May 4, 2015
 
 by Ariel Rokem.  See: :doc:`dwi_seminar`.
 
@@ -188,7 +190,7 @@ by Ariel Rokem.  See: :doc:`dwi_seminar`.
 Hands-on normalization with ANTS
 ********************************
 
-May 11th, 2015
+May 11, 2015
 
 Arielle Tambini showed us how to use the ANTS registration tools.
 
@@ -198,7 +200,7 @@ Her presentation is :download:`here </ants_condensed.pdf>`.
 Journal club on FMRI noise and FMRI networks
 ********************************************
 
-May 18th, 2015
+May 18, 2015
 
 Daniel Sheltraw will lead a discussion on the following paper:
 
@@ -212,7 +214,7 @@ http://dx.doi.org/10.1016/j.neuroimage.2015.03.070.
 Journal club on false positives in FMRI
 ***************************************
 
-June 8th, 2015
+June 8, 2015
 
 A journal club on this paper:
 
@@ -244,7 +246,7 @@ although it has a more sophisticated autocorrelation model.
 Effect of movement and spatial preprocessing on functional SNR
 **************************************************************
 
-June 15th, 2015
+June 15, 2015
 
 A presentation by Anwar Nunez-Elizalde on some analyses of signal to noise with
 and without spatial processing such as motion correction.
@@ -258,7 +260,7 @@ Anwar also talked about the large reduction in subject motion from the custom
 Journal club on detection of motion in FMRI
 *******************************************
 
-June 29th, 2015
+June 29, 2015
 
 We looked at:
 
@@ -277,7 +279,7 @@ identifying motion-corrupted fMRI data volumes perform.
 Journal club on reproducibility
 *******************************
 
-July 6th, 2015
+July 6, 2015
 
 This was a discussion of what we mean by reproducibility in neuroimaging.
 W went through the arguments in Killeen et al. and discussed if the Killeen
@@ -290,7 +292,7 @@ Psychological science 16.5 (2005): 345-353.
 Discussion of model validation
 ******************************
 
-July 13th, 2015
+July 13, 2015
 
 We discussed the papers below.  The intention was to have some time to think of
 the problem more generally in terms of prediction and beyond activation models
@@ -324,7 +326,7 @@ We discussed that as a model selection question.
 Journal club on denoising regression models in FMRI
 ***************************************************
 
-July 27th, 2015
+July 27, 2015
 
 We discussed:
 
@@ -347,7 +349,7 @@ neuroimaging group. It is meant to be a standard that will ease sharing of FMRI
 Journal club on reliability in functional connectivity
 ******************************************************
 
-August 31st, 2015
+August 31, 2015
 
 Dan Lurie led a discussion of:
 
@@ -355,13 +357,13 @@ Mueller, Sophia, et al. "Reliability correction for functional connectivity:
 Theory and implementation." Human Brain Mapping (2015).
 http://onlinelibrary.wiley.com/doi/10.1002/hbm.22947/full
 
-(September 7th, Labor day, no meeting)
+(September 7, Labor day, no meeting)
 
 ***********************************************
 Journal club in characterizing motion artefacts
 ***********************************************
 
-September 14th, 2015
+September 14, 2015
 
 We discussed:
 
@@ -383,7 +385,7 @@ signal does appear to work well in reducing the effect.
 Discussion of ROI voxel selection
 *********************************
 
-September 21st, 2015
+September 21, 2015
 
 Anna walked us through a problem selecting activated voxels, using MATLAB.
 
@@ -394,7 +396,7 @@ Among the things we discussed was whether to select voxels on their effect size
 Removing noise with constrained regression
 ******************************************
 
-September 28th, 2015
+September 28, 2015
 
 MB started by showing some systematic noise plots on example data, as we saw in
 the Power et al 2013 paper a few weeks back.
@@ -420,7 +422,7 @@ http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3811142/
 Discussion of brainspell activation database
 ********************************************
 
-October 5th, 2015
+October 5, 2015
 
 We discussed the brainspell database and web application.
 
@@ -433,7 +435,7 @@ Firefox to avoid startup errors.
 Permutation inference for the GLM
 *********************************
 
-November 9th 2015
+November 9, 2015
 
 A discussion of "Permutation inference for the general linear model." by
 Winkler et al http://www.ncbi.nlm.nih.gov/pubmed/24530839
@@ -442,13 +444,13 @@ Winkler et al http://www.ncbi.nlm.nih.gov/pubmed/24530839
 Idiot's guide to tractography
 *****************************
 
-November 13th 2015
+November 13, 2015
 
 *************************
 How good is tractography?
 *************************
 
-December 4th 2015
+December 4, 2015
 
 Colin Hoy lead us in a discussion of:
 
@@ -465,7 +467,7 @@ with standard tractography techniques, and is that good enough?
 Parametric inference methods for group studies
 **********************************************
 
-March 15th 2016
+March 15, 2016
 
 http://arxiv.org/pdf/1511.01863.pdf
 
@@ -481,7 +483,7 @@ can go way wrong.  But - permutation tests work very well.
 Reproducibility of psychological science
 ****************************************
 
-March 22nd 2016
+March 22, 2016
 
 http://science.sciencemag.org/content/349/6251/aac4716.abstract
 
@@ -502,7 +504,7 @@ Some questions:
 Discussion of anatomical and functional connectivity
 ****************************************************
 
-April 5th 2016
+April 5, 2016
 
 A discussion led by Katarina Slama functional connectivity: its relation to
 anatomical connectivity, but also "what is the partial in partial correlation
@@ -525,7 +527,7 @@ http://www.pnas.org/content/111/46/16574.short
 Introduction to Fourier analysis
 ********************************
 
-April 11th 2016
+April 11, 2016
 
 Working through the meaning of the Fourier analysis, using only sines and
 cosines : http://matthew-brett.github.io/teaching/fourier_no_ei.html
@@ -534,7 +536,7 @@ cosines : http://matthew-brett.github.io/teaching/fourier_no_ei.html
 Constrained regression for removing outlier scans in FMRI
 *********************************************************
 
-April 26th 2016
+April 26, 2016
 
 Matthew presented some preliminary results from using constrained regression
 to remove the effect of outlier scans in FMRI.
@@ -560,7 +562,7 @@ with some more explanatory notes (by Jonathan Taylor) in:
 Node selection and graph community detection
 ********************************************
 
-May 3rd 2016
+May 3, 2016
 
 Some questions led by Maxwell Bertolero.
 
@@ -568,7 +570,7 @@ Some questions led by Maxwell Bertolero.
 A format for describing and sharing FMRI data
 *********************************************
 
-May 11 2016
+May 11, 2016
 
 JB presented a proposal for standardizing the description of the fmri data to
 ease sharing and standard processings:
@@ -579,7 +581,7 @@ http://bids.neuroimaging.io/bids_spec1.0.0-rc4.pdf
 Replication of brian-behavior correlations
 ******************************************
 
-June 7th 2016
+June 7, 2016
 
 JB led a discussion of some recent attempts to replicate brain-behavior
 correlations:
@@ -609,7 +611,7 @@ http://linkinghub.elsevier.com/retrieve/pii/S001094521500221X
 Introduction to nipy
 ********************
 
-June 21st, 2016
+June 21, 2016
 
 See: :doc:`nipy_intro`.
 
