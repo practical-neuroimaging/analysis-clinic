@@ -429,6 +429,182 @@ The code for brainspell is at: https://github.com/r03ert0/brainspell
 The website is at: http://brainspell.org - but you may need to view it using
 Firefox to avoid startup errors.
 
+*********************************
+Permutation inference for the GLM
+*********************************
+
+November 9th 2015
+
+A discussion of "Permutation inference for the general linear model." by
+Winkler et al http://www.ncbi.nlm.nih.gov/pubmed/24530839
+
+*****************************
+Idiot's guide to tractography
+*****************************
+
+November 13th 2015
+
+*************************
+How good is tractography?
+*************************
+
+December 4th 2015
+
+Colin Hoy lead us in a discussion of:
+
+Thomas, C., Ye, F. Q., Irfanoglu, M. O., Modi, P., Saleem, K. S.,
+Leopold, D. A., & Pierpaoli, C. (2014). Anatomical accuracy of brain
+connections derived from diffusion MRI tractography is inherently
+limited. Proceedings of the National Academy of Sciences of the United
+States of America, 201405672. http://doi.org/10.1073/pnas.1405672111
+
+The main question arising is - what is the best we can possibly do
+with standard tractography techniques, and is that good enough?
+
+**********************************************
+Parametric inference methods for group studies
+**********************************************
+
+March 15th 2016
+
+http://arxiv.org/pdf/1511.01863.pdf
+
+"CAN PARAMETRIC STATISTICAL METHODS BE TRUSTED FOR FMRI BASED GROUP STUDIES?"
+
+It's the follow-up to a study we looked at a while back, showing a big excess
+of false positives across many datasets for single-subject designs.  Here the
+authors did the same kind of thing looking at the more common case of false
+positives in group studies, and found that the standard cluster-size methods
+can go way wrong.  But - permutation tests work very well.
+
+****************************************
+Reproducibility of psychological science
+****************************************
+
+March 22nd 2016
+
+http://science.sciencemag.org/content/349/6251/aac4716.abstract
+
+Estimating the reproducibility of psychological science
+BY OPEN SCIENCE COLLABORATION; SCIENCE AUG 2015
+
+About 37 percent of somewhat randomly selected papers in psychology
+could be replicated.
+
+Some questions:
+
+* How good an estimate of reproducibility is this?
+* Is 37 percent good enough?
+* If 37 percent is the right answer in psychology, what is the answer likely
+  to be in brain imaging?
+
+****************************************************
+Discussion of anatomical and functional connectivity
+****************************************************
+
+April 5th 2016
+
+A discussion led by Katarina Slama functional connectivity: its relation to
+anatomical connectivity, but also "what is the partial in partial correlation
+and partial coherence?"
+
+During discussion Melissa Newton pointed us to:
+
+de Schotten, Michel Thiebaut, et al. "Monkey to human comparative anatomy of
+the frontal lobe association tracts." Cortex 48.1 (2012): 82-96.
+
+JB referenced:
+
+Thomas, Cibu, et al. "Anatomical accuracy of brain connections derived from
+diffusion MRI tractography is inherently limited." Proceedings of the National
+Academy of Sciences 111.46 (2014): 16574-16579.
+
+http://www.pnas.org/content/111/46/16574.short
+
+********************************
+Introduction to Fourier analysis
+********************************
+
+April 11th 2016
+
+Working through the meaning of the Fourier analysis, using only sines and
+cosines : http://matthew-brett.github.io/teaching/fourier_no_ei.html
+
+*********************************************************
+Constrained regression for removing outlier scans in FMRI
+*********************************************************
+
+April 26th 2016
+
+Matthew presented some preliminary results from using constrained regression
+to remove the effect of outlier scans in FMRI.
+
+This is the follow-up to the presentation last September:
+
+http://practical-neuroimaging.github.io/analysis-clinic/clinics.html#removing-noise-with-constrained-regression
+
+The idea was (and is) to put lots of noise regressors into the design
+matrix, and use constrained regression to drop almost all the noise
+regressors, leaving only the ones that really explain the data (such
+as delta regressors for outlier scans).
+
+The notebook MB showed is at :
+
+* https://github.com/matthew-brett/consden/blob/master/sparse_brain.ipynb
+
+with some more explanatory notes (by Jonathan Taylor) in:
+
+* https://github.com/matthew-brett/consden/blob/master/sparse_group_regression.ipynb
+
+********************************************
+Node selection and graph community detection
+********************************************
+
+May 3rd 2016
+
+Some questions led by Maxwell Bertolero.
+
+*********************************************
+A format for describing and sharing FMRI data
+*********************************************
+
+May 11 2016
+
+JB presented a proposal for standardizing the description of the fmri data to
+ease sharing and standard processings:
+
+http://bids.neuroimaging.io/bids_spec1.0.0-rc4.pdf
+
+******************************************
+Replication of brian-behavior correlations
+******************************************
+
+June 7th 2016
+
+JB led a discussion of some recent attempts to replicate brain-behavior
+correlations:
+
+Boekel, W., Wagenmakers, E.-J., Belay, L., Verhagen, J., Brown, S.,
+and Forstmann, B.U. (2013). A purely confirmatory replication study of
+structural brain-behavior correlations. Journal of Neuroscience 12,
+4745–4765.
+http://newcl.org/publications/boekel-cortex.pdf
+
+Kanai, R. (2016). Open questions in conducting confirmatory
+replication studies: Commentary on Boekel et al., 2015. Cortex 74,
+343–347.
+http://linkinghub.elsevier.com/retrieve/pii/S0010945215000787
+
+Muhlert, N., and Ridgway, G.R. (2016). Failed replications,
+contributing factors and careful interpretations: Commentary on Boekel
+et al., 2015. Cortex 74, 338–342.
+http://linkinghub.elsevier.com/retrieve/pii/S0010945215000775
+
+Boekel, W., Forstmann, B.U., and Wagenmakers, E.-J. (2016). Challenges
+in replicating brain-behavior correlations: Rejoinder to Kanai (2015)
+and Muhlert and Ridgway (2015). Cortex 74, 348–352.
+http://linkinghub.elsevier.com/retrieve/pii/S001094521500221X
+
 ********************
 Introduction to nipy
 ********************
