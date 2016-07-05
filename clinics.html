@@ -87,7 +87,7 @@ fMRI; Hemodynamic response; Delay; Brain imaging; Basis sets; Group analysis</p>
 <p>Matthew mentioned the Worsley average (global) F-test for testing if a
 particular F-test is significant on average across voxels – and therefore
 whether to drop or keep the regressors in the F test.  There is some very old
-MATLAB code to compute this test <a class="reference download internal" href="_downloads/meanF.m" download=""><code class="xref download docutils literal"><span class="pre">here</span></code></a> that may
+MATLAB code to compute this test <a class="reference download internal" href="_downloads/meanF.m"><code class="xref download docutils literal"><span class="pre">here</span></code></a> that may
 well need adapting to newer versions of SPM.</p>
 </div>
 <div class="section" id="correlated-regressors-power">
@@ -114,7 +114,7 @@ echo planar images from Bo field variations. MRM 34:65-73.</p>
 <div class="section" id="fieldmaps-extravaganza">
 <h2>Fieldmaps extravaganza<a class="headerlink" href="#fieldmaps-extravaganza" title="Permalink to this headline">¶</a></h2>
 <p>March 16, 2015</p>
-<p>Alex Huth kindly provided his <a class="reference download internal" href="_downloads/EpiUnwarping.pdf" download=""><code class="xref download docutils literal"><span class="pre">presentation</span> <span class="pre">on</span> <span class="pre">EPI</span> <span class="pre">unwarping</span></code></a>.</p>
+<p>Alex Huth kindly provided his <a class="reference download internal" href="_downloads/EpiUnwarping.pdf"><code class="xref download docutils literal"><span class="pre">presentation</span> <span class="pre">on</span> <span class="pre">EPI</span> <span class="pre">unwarping</span></code></a>.</p>
 </div>
 <div class="section" id="optimizing-designs-orthogonalizing-regressors">
 <h2>Optimizing designs, orthogonalizing regressors<a class="headerlink" href="#optimizing-designs-orthogonalizing-regressors" title="Permalink to this headline">¶</a></h2>
@@ -135,7 +135,7 @@ medical research 12.5 (2003): 419-446.
 <div class="section" id="on-choosing-a-connectivity-metric">
 <h2>On choosing a connectivity metric<a class="headerlink" href="#on-choosing-a-connectivity-metric" title="Permalink to this headline">¶</a></h2>
 <p>April 13th, 2015</p>
-<p>Derek Nee presented on <a class="reference download internal" href="_downloads/choosing_dcm.pdf" download=""><code class="xref download docutils literal"><span class="pre">How</span> <span class="pre">I</span> <span class="pre">Learned</span> <span class="pre">to</span> <span class="pre">Stop</span>
+<p>Derek Nee presented on <a class="reference download internal" href="_downloads/choosing_dcm.pdf"><code class="xref download docutils literal"><span class="pre">How</span> <span class="pre">I</span> <span class="pre">Learned</span> <span class="pre">to</span> <span class="pre">Stop</span>
 <span class="pre">Worrying</span> <span class="pre">and</span> <span class="pre">Use</span> <span class="pre">DCM</span></code></a>.</p>
 </div>
 <div class="section" id="spatial-normalization">
@@ -186,7 +186,7 @@ methods are optimizing in doing the match?</li>
 <h2>Hands-on normalization with ANTS<a class="headerlink" href="#hands-on-normalization-with-ants" title="Permalink to this headline">¶</a></h2>
 <p>May 11th, 2015</p>
 <p>Arielle Tambini showed us how to use the ANTS registration tools.</p>
-<p>Her presentation is <a class="reference download internal" href="_downloads/ants_condensed.pdf" download=""><code class="xref download docutils literal"><span class="pre">here</span></code></a>.</p>
+<p>Her presentation is <a class="reference download internal" href="_downloads/ants_condensed.pdf"><code class="xref download docutils literal"><span class="pre">here</span></code></a>.</p>
 </div>
 <div class="section" id="journal-club-on-fmri-noise-and-fmri-networks">
 <h2>Journal club on FMRI noise and FMRI networks<a class="headerlink" href="#journal-club-on-fmri-noise-and-fmri-networks" title="Permalink to this headline">¶</a></h2>
@@ -332,7 +332,7 @@ the Power et al 2013 paper a few weeks back.</p>
 for, and regress out, scans where there exists large amounts of noise variance
 shared across voxels.  There is the (edited) notebook, rendered nicely:</p>
 <p><a class="reference external" href="http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/_downloads/powers_plots.ipynb">http://nbviewer.ipython.org/url/practical-neuroimaging.github.io/analysis-clinic/_downloads/powers_plots.ipynb</a></p>
-<p>You can also <a class="reference download internal" href="_downloads/powers_plots.ipynb" download=""><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">the</span> <span class="pre">notebook</span></code></a>.</p>
+<p>You can also <a class="reference download internal" href="_downloads/powers_plots.ipynb"><code class="xref download docutils literal"><span class="pre">download</span> <span class="pre">the</span> <span class="pre">notebook</span></code></a>.</p>
 <p>We were also looking at the <a class="reference external" href="http://scikit-learn.org/stable/modules/linear_model.html#lasso">scikit-learn LASSO description</a>.</p>
 <p>Dan L pointed us to this reference:</p>
 <p>Satterthwaite, Theodore D., et al. &#8220;An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data.&#8221; Neuroimage 64 (2013): 240-256.</p>
@@ -345,6 +345,131 @@ shared across voxels.  There is the (edited) notebook, rendered nicely:</p>
 <p>The code for brainspell is at: <a class="reference external" href="https://github.com/r03ert0/brainspell">https://github.com/r03ert0/brainspell</a></p>
 <p>The website is at: <a class="reference external" href="http://brainspell.org">http://brainspell.org</a> - but you may need to view it using
 Firefox to avoid startup errors.</p>
+</div>
+<div class="section" id="permutation-inference-for-the-glm">
+<h2>Permutation inference for the GLM<a class="headerlink" href="#permutation-inference-for-the-glm" title="Permalink to this headline">¶</a></h2>
+<p>November 9th 2015</p>
+<p>A discussion of &#8220;Permutation inference for the general linear model.&#8221; by
+Winkler et al <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24530839">http://www.ncbi.nlm.nih.gov/pubmed/24530839</a></p>
+</div>
+<div class="section" id="idiot-s-guide-to-tractography">
+<h2>Idiot&#8217;s guide to tractography<a class="headerlink" href="#idiot-s-guide-to-tractography" title="Permalink to this headline">¶</a></h2>
+<p>November 13th 2015</p>
+</div>
+<div class="section" id="how-good-is-tractography">
+<h2>How good is tractography?<a class="headerlink" href="#how-good-is-tractography" title="Permalink to this headline">¶</a></h2>
+<p>December 4th 2015</p>
+<p>Colin Hoy lead us in a discussion of:</p>
+<p>Thomas, C., Ye, F. Q., Irfanoglu, M. O., Modi, P., Saleem, K. S.,
+Leopold, D. A., &amp; Pierpaoli, C. (2014). Anatomical accuracy of brain
+connections derived from diffusion MRI tractography is inherently
+limited. Proceedings of the National Academy of Sciences of the United
+States of America, 201405672. <a class="reference external" href="http://doi.org/10.1073/pnas.1405672111">http://doi.org/10.1073/pnas.1405672111</a></p>
+<p>The main question arising is - what is the best we can possibly do
+with standard tractography techniques, and is that good enough?</p>
+</div>
+<div class="section" id="parametric-inference-methods-for-group-studies">
+<h2>Parametric inference methods for group studies<a class="headerlink" href="#parametric-inference-methods-for-group-studies" title="Permalink to this headline">¶</a></h2>
+<p>March 15th 2016</p>
+<p><a class="reference external" href="http://arxiv.org/pdf/1511.01863.pdf">http://arxiv.org/pdf/1511.01863.pdf</a></p>
+<p>&#8220;CAN PARAMETRIC STATISTICAL METHODS BE TRUSTED FOR FMRI BASED GROUP STUDIES?&#8221;</p>
+<p>It&#8217;s the follow-up to a study we looked at a while back, showing a big excess
+of false positives across many datasets for single-subject designs.  Here the
+authors did the same kind of thing looking at the more common case of false
+positives in group studies, and found that the standard cluster-size methods
+can go way wrong.  But - permutation tests work very well.</p>
+</div>
+<div class="section" id="reproducibility-of-psychological-science">
+<h2>Reproducibility of psychological science<a class="headerlink" href="#reproducibility-of-psychological-science" title="Permalink to this headline">¶</a></h2>
+<p>March 22nd 2016</p>
+<p><a class="reference external" href="http://science.sciencemag.org/content/349/6251/aac4716.abstract">http://science.sciencemag.org/content/349/6251/aac4716.abstract</a></p>
+<p>Estimating the reproducibility of psychological science
+BY OPEN SCIENCE COLLABORATION; SCIENCE AUG 2015</p>
+<p>About 37 percent of somewhat randomly selected papers in psychology
+could be replicated.</p>
+<p>Some questions:</p>
+<ul class="simple">
+<li>How good an estimate of reproducibility is this?</li>
+<li>Is 37 percent good enough?</li>
+<li>If 37 percent is the right answer in psychology, what is the answer likely
+to be in brain imaging?</li>
+</ul>
+</div>
+<div class="section" id="discussion-of-anatomical-and-functional-connectivity">
+<h2>Discussion of anatomical and functional connectivity<a class="headerlink" href="#discussion-of-anatomical-and-functional-connectivity" title="Permalink to this headline">¶</a></h2>
+<p>April 5th 2016</p>
+<p>A discussion led by Katarina Slama functional connectivity: its relation to
+anatomical connectivity, but also &#8220;what is the partial in partial correlation
+and partial coherence?&#8221;</p>
+<p>During discussion Melissa Newton pointed us to:</p>
+<p>de Schotten, Michel Thiebaut, et al. &#8220;Monkey to human comparative anatomy of
+the frontal lobe association tracts.&#8221; Cortex 48.1 (2012): 82-96.</p>
+<p>JB referenced:</p>
+<p>Thomas, Cibu, et al. &#8220;Anatomical accuracy of brain connections derived from
+diffusion MRI tractography is inherently limited.&#8221; Proceedings of the National
+Academy of Sciences 111.46 (2014): 16574-16579.</p>
+<p><a class="reference external" href="http://www.pnas.org/content/111/46/16574.short">http://www.pnas.org/content/111/46/16574.short</a></p>
+</div>
+<div class="section" id="introduction-to-fourier-analysis">
+<h2>Introduction to Fourier analysis<a class="headerlink" href="#introduction-to-fourier-analysis" title="Permalink to this headline">¶</a></h2>
+<p>April 11th 2016</p>
+<p>Working through the meaning of the Fourier analysis, using only sines and
+cosines : <a class="reference external" href="http://matthew-brett.github.io/teaching/fourier_no_ei.html">http://matthew-brett.github.io/teaching/fourier_no_ei.html</a></p>
+</div>
+<div class="section" id="constrained-regression-for-removing-outlier-scans-in-fmri">
+<h2>Constrained regression for removing outlier scans in FMRI<a class="headerlink" href="#constrained-regression-for-removing-outlier-scans-in-fmri" title="Permalink to this headline">¶</a></h2>
+<p>April 26th 2016</p>
+<p>Matthew presented some preliminary results from using constrained regression
+to remove the effect of outlier scans in FMRI.</p>
+<p>This is the follow-up to the presentation last September:</p>
+<p><a class="reference external" href="http://practical-neuroimaging.github.io/analysis-clinic/clinics.html#removing-noise-with-constrained-regression">http://practical-neuroimaging.github.io/analysis-clinic/clinics.html#removing-noise-with-constrained-regression</a></p>
+<p>The idea was (and is) to put lots of noise regressors into the design
+matrix, and use constrained regression to drop almost all the noise
+regressors, leaving only the ones that really explain the data (such
+as delta regressors for outlier scans).</p>
+<p>The notebook MB showed is at :</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/matthew-brett/consden/blob/master/sparse_brain.ipynb">https://github.com/matthew-brett/consden/blob/master/sparse_brain.ipynb</a></li>
+</ul>
+<p>with some more explanatory notes (by Jonathan Taylor) in:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/matthew-brett/consden/blob/master/sparse_group_regression.ipynb">https://github.com/matthew-brett/consden/blob/master/sparse_group_regression.ipynb</a></li>
+</ul>
+</div>
+<div class="section" id="node-selection-and-graph-community-detection">
+<h2>Node selection and graph community detection<a class="headerlink" href="#node-selection-and-graph-community-detection" title="Permalink to this headline">¶</a></h2>
+<p>May 3rd 2016</p>
+<p>Some questions led by Maxwell Bertolero.</p>
+</div>
+<div class="section" id="a-format-for-describing-and-sharing-fmri-data">
+<h2>A format for describing and sharing FMRI data<a class="headerlink" href="#a-format-for-describing-and-sharing-fmri-data" title="Permalink to this headline">¶</a></h2>
+<p>May 11 2016</p>
+<p>JB presented a proposal for standardizing the description of the fmri data to
+ease sharing and standard processings:</p>
+<p><a class="reference external" href="http://bids.neuroimaging.io/bids_spec1.0.0-rc4.pdf">http://bids.neuroimaging.io/bids_spec1.0.0-rc4.pdf</a></p>
+</div>
+<div class="section" id="replication-of-brian-behavior-correlations">
+<h2>Replication of brian-behavior correlations<a class="headerlink" href="#replication-of-brian-behavior-correlations" title="Permalink to this headline">¶</a></h2>
+<p>June 7th 2016</p>
+<p>JB led a discussion of some recent attempts to replicate brain-behavior
+correlations:</p>
+<p>Boekel, W., Wagenmakers, E.-J., Belay, L., Verhagen, J., Brown, S.,
+and Forstmann, B.U. (2013). A purely confirmatory replication study of
+structural brain-behavior correlations. Journal of Neuroscience 12,
+4745–4765.
+<a class="reference external" href="http://newcl.org/publications/boekel-cortex.pdf">http://newcl.org/publications/boekel-cortex.pdf</a></p>
+<p>Kanai, R. (2016). Open questions in conducting confirmatory
+replication studies: Commentary on Boekel et al., 2015. Cortex 74,
+343–347.
+<a class="reference external" href="http://linkinghub.elsevier.com/retrieve/pii/S0010945215000787">http://linkinghub.elsevier.com/retrieve/pii/S0010945215000787</a></p>
+<p>Muhlert, N., and Ridgway, G.R. (2016). Failed replications,
+contributing factors and careful interpretations: Commentary on Boekel
+et al., 2015. Cortex 74, 338–342.
+<a class="reference external" href="http://linkinghub.elsevier.com/retrieve/pii/S0010945215000775">http://linkinghub.elsevier.com/retrieve/pii/S0010945215000775</a></p>
+<p>Boekel, W., Forstmann, B.U., and Wagenmakers, E.-J. (2016). Challenges
+in replicating brain-behavior correlations: Rejoinder to Kanai (2015)
+and Muhlert and Ridgway (2015). Cortex 74, 348–352.
+<a class="reference external" href="http://linkinghub.elsevier.com/retrieve/pii/S001094521500221X">http://linkinghub.elsevier.com/retrieve/pii/S001094521500221X</a></p>
 </div>
 <div class="section" id="introduction-to-nipy">
 <h2>Introduction to nipy<a class="headerlink" href="#introduction-to-nipy" title="Permalink to this headline">¶</a></h2>
@@ -389,6 +514,17 @@ Firefox to avoid startup errors.</p>
 <li><a class="reference internal" href="#discussion-of-roi-voxel-selection">Discussion of ROI voxel selection</a></li>
 <li><a class="reference internal" href="#removing-noise-with-constrained-regression">Removing noise with constrained regression</a></li>
 <li><a class="reference internal" href="#discussion-of-brainspell-activation-database">Discussion of brainspell activation database</a></li>
+<li><a class="reference internal" href="#permutation-inference-for-the-glm">Permutation inference for the GLM</a></li>
+<li><a class="reference internal" href="#idiot-s-guide-to-tractography">Idiot&#8217;s guide to tractography</a></li>
+<li><a class="reference internal" href="#how-good-is-tractography">How good is tractography?</a></li>
+<li><a class="reference internal" href="#parametric-inference-methods-for-group-studies">Parametric inference methods for group studies</a></li>
+<li><a class="reference internal" href="#reproducibility-of-psychological-science">Reproducibility of psychological science</a></li>
+<li><a class="reference internal" href="#discussion-of-anatomical-and-functional-connectivity">Discussion of anatomical and functional connectivity</a></li>
+<li><a class="reference internal" href="#introduction-to-fourier-analysis">Introduction to Fourier analysis</a></li>
+<li><a class="reference internal" href="#constrained-regression-for-removing-outlier-scans-in-fmri">Constrained regression for removing outlier scans in FMRI</a></li>
+<li><a class="reference internal" href="#node-selection-and-graph-community-detection">Node selection and graph community detection</a></li>
+<li><a class="reference internal" href="#a-format-for-describing-and-sharing-fmri-data">A format for describing and sharing FMRI data</a></li>
+<li><a class="reference internal" href="#replication-of-brian-behavior-correlations">Replication of brian-behavior correlations</a></li>
 <li><a class="reference internal" href="#introduction-to-nipy">Introduction to nipy</a></li>
 </ul>
 </li>
@@ -434,7 +570,7 @@ Firefox to avoid startup errors.</p>
     </div>
     <div class="footer" role="contentinfo">
         &copy; Copyright 2015, Matthew Brett, JB Poline, Daniel Sheltraw.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
     </div>
   </body>
 </html>
